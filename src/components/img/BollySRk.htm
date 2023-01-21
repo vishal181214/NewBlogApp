@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta name="google-site-verification" content="tgDNc28Lf5gd0kkpQ0a7D-zQFTfmTMHdEDy42qHRfDY" />	
+	<!-- Optimized with WP Meteor v3.1.4 - https://wordpress.org/plugins/wp-meteor/ --><script data-wpmeteor-nooptimize="true" data-cfasync="false">var _wpmeteor={"rdelay":2000,"preload":true,"elementor-animations":true,"elementor-pp":true,"v":"3.1.4","rest_url":"https:\/\/thescoopbeats.com\/wp-json\/"};!function(e){var t={};function n(r){if(t[r])return t[r].exports;var o=t[r]={i:r,l:!1,exports:{}};return e[r].call(o.exports,o,o.exports,n),o.l=!0,o.exports}n.m=e,n.c=t,n.d=function(e,t,r){n.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},n.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},n.t=function(e,t){if(1&t&&(e=n(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(n.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var o in e)n.d(r,o,function(t){return e[t]}.bind(null,o));return r},n.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return n.d(t,"a",t),t},n.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},n.p="/",n(n.s=1)}([,function(e,t,n){e.exports=n(2)},function(e,t){try{new MutationObserver((function(){})),new PerformanceObserver((function(){})),Object.assign({},{}),document.fonts.ready.then((function(){}))}catch(e){var n=document.location.href;if(!n.match(/[?&]wpmeteordisable/)){var r="";r=-1==n.indexOf("?")?-1==n.indexOf("#")?n+"?wpmeteordisable=1":n.replace("#","?wpmeteordisable=1#"):-1==n.indexOf("#")?n+"&wpmeteordisable=1":n.replace("#","&wpmeteordisable=1#"),document.location.href=r}}}]);
+</script><script data-wpmeteor-nooptimize="true" data-cfasync="false">!function(e){var t={};function r(n){if(t[n])return t[n].exports;var a=t[n]={i:n,l:!1,exports:{}};return e[n].call(a.exports,a,a.exports,r),a.l=!0,a.exports}r.m=e,r.c=t,r.d=function(e,t,n){r.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:n})},r.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},r.t=function(e,t){if(1&t&&(e=r(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var n=Object.create(null);if(r.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var a in e)r.d(n,a,function(t){return e[t]}.bind(null,a));return n},r.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return r.d(t,"a",t),t},r.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},r.p="/",r(r.s=0)}([function(e,t,r){e.exports=r(3)},,,function(e,t,r){"use strict";r.r(t);var n=new class{constructor(){this.l=[]}emit(e,t){void 0===t&&(t=null),this.l[e]&&this.l[e].forEach(e=>e(t))}on(e,t){var r;(r=this.l)[e]||(r[e]=[]),this.l[e].push(t)}off(e,t){this.l[e]=(this.l[e]||[]).filter(e=>e!==t)}},a=new Date,o=document;class i{constructor(){this.known=[]}init(){var e,t=!1,r=e=>{if(!t&&e&&e.fn&&!e.__wpmeteor){var r=function(t){return o.addEventListener("DOMContentLoaded",r=>{t.bind(o)(e,r,"jQueryMock")}),this};this.known.push([e,e.fn.ready,e.fn.init.prototype.ready]),e.fn.ready=r,e.fn.init.prototype.ready=r,e.__wpmeteor=!0}return e};window.jQuery&&(e=r(window.jQuery)),Object.defineProperty(window,"jQuery",{get:()=>e,set:t=>e=r(t)}),n.on("l",()=>t=!0)}unmock(){this.known.forEach(e=>{var[t,r,n]=e;t.fn.ready=r,t.fn.init.prototype.ready=n})}}var s={};((e,t)=>{try{var r=Object.defineProperty({},t,{get:function(){s[t]=!0}});e.addEventListener(t,null,r),e.removeEventListener(t,null,r)}catch(e){}})(window,"passive");var c=s,d=window,l=document,u=["mouseover","keydown","touchmove","touchend","wheel"],p=["mouseover","mouseout","touchstart","touchmove","touchend","click"],f="data-wpmeteor-";class v{init(e){var t=!1,r=e=>{t||(t=!0,u.forEach(e=>l.body.removeEventListener(e,r,c)),clearTimeout(!1),n.emit("fi"))},a=e=>{var t=new MouseEvent("click",{view:e.view,bubbles:!0,cancelable:!0});return Object.defineProperty(t,"target",{writable:!1,value:e.target}),t};n.on("i",()=>{t||r()});var o=[],i=e=>{e.target&&"dispatchEvent"in e.target&&("click"===e.type?(e.preventDefault(),e.stopPropagation(),o.push(a(e))):"touchmove"!==e.type&&o.push(e),e.target.setAttribute(f+e.type,!0))};n.on("l",()=>{var e;for(p.forEach(e=>d.removeEventListener(e,i));e=o.shift();){var t=e.target;t.getAttribute(f+"touchstart")&&t.getAttribute(f+"touchend")&&!t.getAttribute(f+"click")?(t.getAttribute(f+"touchmove")||(t.removeAttribute(f+"touchmove"),o.push(a(e))),t.removeAttribute(f+"touchstart"),t.removeAttribute(f+"touchend")):t.removeAttribute(f+e.type),t.dispatchEvent(e)}});var s=()=>{u.forEach(e=>l.body.addEventListener(e,r,c)),p.forEach(e=>d.addEventListener(e,i)),l.removeEventListener("DOMContentLoaded",s)};l.addEventListener("DOMContentLoaded",s)}}var h=document,m=h.createElement("span");m.setAttribute("id","elementor-device-mode"),m.setAttribute("class","elementor-screen-only");var y=window,g=document,b=g.documentElement,E=e=>e.getAttribute("class")||"",w=(e,t)=>e.setAttribute("class",t),L=()=>{window.addEventListener("load",(function(){var e=(h.body.appendChild(m),getComputedStyle(m,":after").content.replace(/"/g,"")),t=Math.max(b.clientWidth||0,y.innerWidth||0),r=Math.max(b.clientHeight||0,y.innerHeight||0),a=["_animation_"+e,"animation_"+e,"_animation","_animation","animation"];Array.from(g.querySelectorAll(".elementor-invisible")).forEach(e=>{var o=e.getBoundingClientRect();if(o.top+y.scrollY<=r&&o.left+y.scrollX<t)try{var i=JSON.parse(e.getAttribute("data-settings"));if(i.trigger_source)return;for(var s,c=i._animation_delay||i.animation_delay||0,d=0;d<a.length;d++)if(i[a[d]]){a[d],s=i[a[d]];break}if(s){var l=E(e),u="none"===s?l:l+" animated "+s,p=setTimeout(()=>{w(e,u.replace(/\belementor\-invisible\b/,"")),a.forEach(e=>delete i[e]),e.setAttribute("data-settings",JSON.stringify(i))},c);n.on("fi",()=>{clearTimeout(p),w(e,E(e).replace(new RegExp("\b"+s+"\b"),""))})}}catch(e){console.error(e)}})}))},_=document,S="querySelectorAll",O="data-in-mega_smartmenus";class A{constructor(e){this.rest_url=e}init(){var e=[];n.on("s",t=>{t&&(t.match(/js\/forms2\/js\/forms2.min.js/)?e.push("marketo"):t.match(/js\.hsforms\.net\/forms\//)&&e.push("hubspot"))}),n.on("l",()=>{e.length&&setTimeout(()=>{var t=new XMLHttpRequest;t.open("POST",this.rest_url+"wpmeteor/v1/detect/",!0),t.setRequestHeader("Content-Type","application/json"),t.setRequestHeader("X-Requested-With","XMLHttpRequest"),t.send(JSON.stringify({data:e}))},2e4)})}}var C="DOMContentLoaded",j="readystatechange",k="message",N="SCRIPT",x=()=>{},M=console.error,T="data-wpmeteor-",R=Object.defineProperty,P=Object.defineProperties,H=/^(text\/javascript|module)$/i;!function(e,t,r,o,s,c,d,l,u,p){var f=e.constructor.name+"::",h=t.constructor.name+"::",m=function(t,r){r=r||e;for(var n=0;n<this.length;n++)t.call(r,this[n],n,this)};"NodeList"in e&&!NodeList.prototype.forEach&&(NodeList.prototype.forEach=m),"HTMLCollection"in e&&!HTMLCollection.prototype.forEach&&(HTMLCollection.prototype.forEach=m),_wpmeteor["elementor-animations"]&&L(),_wpmeteor["elementor-pp"]&&(()=>{var e=_.createElement("div");e.innerHTML='<span class="sub-arrow --wp-meteor"><i class="fa" aria-hidden="true"></i></span>';var t=e.firstChild;_.addEventListener("DOMContentLoaded",(function(){Array.from(_[S](".pp-advanced-menu ul")).forEach(e=>{if(!e.getAttribute(O)){(e.getAttribute("class")||"").match(/\bmega\-menu\b/)&&e[S]("ul").forEach(e=>{e.setAttribute(O,!0)});var r=(e=>{for(var t=[];e=e.previousElementSibling;)t.push(e);return t})(e),n=r.filter(e=>e).filter(e=>"A"===e.tagName).pop();if(n||(n=r.map(e=>Array.from(e[S]("a"))).filter(e=>e).flat().pop()),n){var a=t.cloneNode(!0);n.appendChild(a),new MutationObserver(e=>{e.forEach(e=>{var{addedNodes:t}=e;t.forEach(e=>{if(1===e.nodeType&&"SPAN"===e.tagName)try{n.removeChild(a)}catch(e){}})})}).observe(n,{childList:!0})}}})}))})();var y,g,b,E=[],w=[],D=window.innerHeight||document.documentElement.clientHeight,q=window.innerWidth||document.documentElement.clientWidth,G=!1,I=[],z={},Q=!1,W=!1,B=e.requestIdleCallback||setTimeout,X=setTimeout,J=["src","async","defer","type","integrity"],K=Object;K.defineProperty=(r,n,a)=>r===e&&["jQuery","onload"].indexOf(n)>=0||(r===t||r===t.body)&&["readyState","write","writeln","on"+j].indexOf(n)>=0?(["on"+j,"on"+u].indexOf(n)&&a.set&&(z["on"+j]=z["on"+j]||[],z["on"+j].push(a.set)),r):r instanceof HTMLScriptElement&&J.indexOf(n)>=0?(r[n+"Getters"]||(r[n+"Getters"]=[],r[n+"Setters"]=[],R(r,n,{set(e){r[n+"Setters"].forEach(t=>t.call(r,e))},get:()=>r[n+"Getters"].slice(-1)[0]()})),a.get&&r[n+"Getters"].push(a.get),a.set&&r[n+"Setters"].push(a.set),r):R(r,n,a),K.defineProperties=(e,t)=>{for(var r in t)K.defineProperty(e,r,t[r]);return e},new A(_wpmeteor.rest_url).init();var U=t[r].bind(t),F=t[o].bind(t),V=e[r].bind(e),Y=e[o].bind(e);"undefined"!=typeof EventTarget&&(g=EventTarget.prototype.addEventListener,b=EventTarget.prototype.removeEventListener,U=g.bind(t),F=b.bind(t),V=g.bind(e),Y=b.bind(e));var $,Z=t.createElement.bind(t),ee=t.__proto__.__lookupGetter__("readyState").bind(t);R(t,"readyState",{get:()=>$||ee(),set:e=>$=e});var te,re=e=>I.filter((t,r)=>{var[n,a,o]=t;if(!(e.indexOf(n.type)<0)){o||(o=n.target);try{for(var i=o.constructor.name+"::"+n.type,s=0;s<z[i].length;s++){if(z[i][s])if(!ne[i+"::"+r+"::"+s])return!0}}catch(e){}}}).length,ne={},ae=e=>{I.forEach((r,n)=>{var[a,o,i]=r;if(!(e.indexOf(a.type)<0)){i||(i=a.target);try{var s=i.constructor.name+"::"+a.type;if((z[s]||[]).length)for(var c=0;c<z[s].length;c++){var d=z[s][c];if(d){var l=s+"::"+n+"::"+c;if(!ne[l]){ne[l]=!0,t.readyState=o,te=s;try{d.hasOwnProperty("prototype")&&d.prototype.constructor!==d?d(a):d.bind(i)(a)}catch(e){M(e,d)}te=null}}}}catch(e){M(e)}}})};U(C,e=>{I.push([e,t.readyState,t])}),U(j,e=>{I.push([e,t.readyState,t])}),V(C,r=>{I.push([r,t.readyState,e])}),V(u,r=>{I.push([r,t.readyState,e]),le||ae([C,j,k,u])});var oe=r=>{I.push([r,t.readyState,e])};V(k,oe),n.on("fi",()=>{W=!0,le=!0,Le(),t.readyState="loading",X(ue)});var ie=()=>{Q=!0,W&&!le&&(t.readyState="loading",X(ue)),Y(u,ie)};V(u,ie),(new v).init(_wpmeteor.rdelay);var se=new i;se.init();var ce=1,de=()=>{--ce||X(n.emit.bind(n,"l"))},le=!1,ue=()=>{var r=E.shift();if(r)r[s](T+"src")?r[l](T+"async")?(ce++,ve(r,de),X(ue)):ve(r,X.bind(null,ue)):"javascript/blocked"==r.origtype?(ve(r),X(ue)):X(ue);else if(re([C,j,k]))ae([C,j,k]),X(ue);else if(W&&Q)if(re([u,k]))ae([u,k]),X(ue);else if(ce>1)B(ue);else if(w.length){for(;w.length;)E.push(w.shift());Le(),X(ue)}else{if(e.RocketLazyLoadScripts)try{RocketLazyLoadScripts.run()}catch(e){M(e)}t.readyState="complete",Y(k,oe),(z[f+"message"]||[]).forEach(e=>{V(k,e)}),se.unmock(),le=!1,G=!0,setTimeout(de)}else le=!1},pe=e=>{for(var t=Z(N),r=e.attributes,n=r.length-1;n>=0;n--)t[c](r[n].name,r[n].value);var a=e[s](T+"type");return t.type=a||"text/javascript",(e.textContent||"").match(/^\s*class RocketLazyLoadScripts/)?t.textContent=e.textContent.replace(/^\s*class\s*RocketLazyLoadScripts/,"window.RocketLazyLoadScripts=class").replace("RocketLazyLoadScripts.run();",""):t.textContent=e.textContent,["after","type","src","async","defer"].forEach(e=>t[d](T+e)),t},fe=(e,t)=>{var r=e.parentNode;if(r)return document.createElement(r.tagName).appendChild(r.replaceChild(t,e));M("No parent for",e)},ve=(e,t)=>{var n=e[s](T+"src");if(n){var a=pe(e),o=g?g.bind(a):a[r].bind(a);e.getEventListeners&&e.getEventListeners().forEach(e=>{var[t,r]=e;o(t,r)}),t&&(o(u,t),o(p,t)),a.src=n;var i=fe(e,a),c=a[s]("type");(!i||e[l]("nomodule")||c&&!H.test(c))&&t&&t()}else"javascript/blocked"===e.origtype?fe(e,pe(e)):t&&t()},he=(e,t)=>{var r=(z[e]||[]).indexOf(t);if(r>=0)return z[e][r]=void 0,!0},me=function(e,r){for(var a=arguments.length,o=new Array(a>2?a-2:0),i=2;i<a;i++)o[i-2]=arguments[i];if("HTMLDocument::"+C!=te||e!==C||r.toString().match(/jQueryMock/)){if(r&&(e===C||e===j)){var s=h+e;return z[s]=z[s]||[],z[s].push(r),void(G&&ae([e]))}return U(e,r,...o)}n.on("l",t.addEventListener.bind(t,e,r,...o))},ye=(e,t)=>{e===C&&he(h+e,t);return F(e,t)};P(t,{[r]:{get:()=>me,set:()=>me},[o]:{get:()=>ye,set:()=>ye}});var ge={},be=e=>{if(e)try{e.match(/^\/\/\w+/)&&(e=t.location.protocol+e);var r=new URL(e),n=r.origin;if(n&&!ge[n]&&t.location.host!==r.host){var a=Z("link");a.rel="preconnect",a.href=n,t.head.appendChild(a),ge[n]=!0}}catch(e){}},Ee={},we=(e,r,n)=>{var a=Z("link");a.rel=r?"modulepre"+u:"pre"+u,a.as="script",n&&a[c]("crossorigin",n),a.href=e,t.head.appendChild(a),Ee[e]=!0},Le=()=>{_wpmeteor.preload&&E.forEach(e=>{var t=e[s](T+"src");!t||e[s](T+"integrity")||e[l]("nomodule")||Ee[t]||we(t,"module"==e[s](T+"type"),e[l]("crossorigin")&&e[s]("crossorigin"))})};U(C,()=>{t.querySelectorAll("script["+T+"after]").forEach(e=>{var t=e.__lookupGetter__("type").bind(e);R(e,"origtype",{get:()=>t()}),(e[s](T+"src")||"").match(/\/gtm.js\?/)?w.push(e):e[l](T+"async")?w.unshift(e):E.push(e)})});var _e=function(){for(var e=arguments.length,t=new Array(e),n=0;n<e;n++)t[n]=arguments[n];var a=Z(...t);if(t[0].toUpperCase()!==N||!le)return a;var o=a[c].bind(a),i=a[s].bind(a),f=a[l].bind(a);o(T+"after","REORDER"),o(T+"type","text/javascript"),a.type="javascript/blocked";var v=[];a.getEventListeners=()=>v,K.defineProperties(a,{onload:{set(e){v.push([u,e])}},onerror:{set(e){v.push([p,e])}}}),J.forEach(e=>{var t=a.__lookupGetter__(e).bind(a);K.defineProperty(a,e,{set:t=>t?a[c](T+e,t):a[d](T+e),get:()=>a[s](T+e)}),R(a,"orig"+e,{get:()=>t()})}),a[r]=function(e,t){v.push([e,t])},a[c]=function(e,t){if(J.indexOf(e)>=0)return t?o(T+e,t):a[d](T+e);o(e,t)},a[s]=function(e){return J.indexOf(e)>=0?i(T+e):i(e)},a[l]=function(e){return J.indexOf(e)>=0?f(T+e):f(e)};var h=a.attributes;return R(a,"attributes",{get:()=>[...h].filter(e=>"type"!==e.name&&e.name!==T+"after").map(e=>({name:e.name.match(new RegExp(T))?e.name.replace(T,""):e.name,value:e.value}))}),a};Object.defineProperty(t,"createElement",{set(e){e!==_e&&(y=e)},get:()=>y||_e});var Se=[],Oe=new MutationObserver(e=>{le&&e.forEach(e=>{var{addedNodes:t,target:r}=e;t.forEach(e=>{if(1===e.nodeType)if(N===e.tagName)if("REORDER"!==e[s](T+"after")||e[s](T+"type")&&!H.test(e[s](T+"type")))n.emit("s",e.src);else{var t=e[s](T+"src");Se.filter(t=>t===e).length&&M("Inserted twice",e),e.parentNode?(Se.push(e),(t||"").match(/\/gtm.js\?/)?(w.push(e),be(t)):e[l](T+"async")?(w.unshift(e),be(t)):(!t||!E.length||e[s](T+"integrity")||e[l]("nomodule")||Ee[t]||E.length&&(x((new Date-a)/1e3,"pre preload",E.length),we(t,"module"==e[s](T+"type"),e[l]("crossorigin")&&e[s]("crossorigin"))),E.push(e))):(e.addEventListener(u,e=>e.target.parentNode.removeChild(e.target)),e.addEventListener(p,e=>e.target.parentNode.removeChild(e.target)),r.appendChild(e))}else"LINK"===e.tagName&&"script"===e[s]("as")&&(Ee[e[s]("href")]=!0)})})});Oe.observe(t.documentElement,{childList:!0,subtree:!0,attributes:!0,attributeOldValue:!0}),n.on("l",()=>{y&&y!==_e||(t.createElement=Z,Oe.disconnect())});var Ae=e=>{var r,n;t.currentScript&&t.currentScript.parentNode?(n=t.currentScript,r=n.parentNode):(r=t.body,n=r.lastChild);try{var a=Z("div");a.innerHTML=e,Array.from(a.childNodes).forEach(e=>{e.nodeName===N?r.insertBefore(pe(e),n):r.insertBefore(e,n)})}catch(e){M(e)}},Ce=e=>Ae(e+"\n");P(t,{write:{get:()=>Ae,set:e=>Ae=e},writeln:{get:()=>Ce,set:e=>Ce=e}});var je=function(t,r){for(var a=arguments.length,o=new Array(a>2?a-2:0),i=2;i<a;i++)o[i-2]=arguments[i];if("Window::"+C!=te||t!==C||r.toString().match(/jQueryMock/)){if("Window::"+u!=te||t!==u){if(r&&(t===u||t===C||t===k&&!G)){var s=t===C?h+t:f+t;return z[s]=z[s]||[],z[s].push(r),void(G&&ae([t]))}return V(t,r,...o)}n.on("l",e.addEventListener.bind(e,t,r,...o))}else n.on("l",e.addEventListener.bind(e,t,r,...o))},ke=(e,t)=>{e===u&&he(e===C?h+e:f+e,t);return Y(e,t)};P(e,{[r]:{get:()=>je,set:()=>je},[o]:{get:()=>ke,set:()=>ke}});var Ne=e=>{var t;return{get:()=>t,set:r=>(t&&he(e,r),z[e]=z[e]||[],z[e].push(r),t=r)}};U("wpl",n=>{var{target:a,event:o}=n.detail,i=a==e?t.body:a,c=i[s](T+"on"+o.type);i[d](T+"on"+o.type),R(o,"target",{value:a}),R(o,"currentTarget",{value:a});var l=new Function(c).bind(a);a.event=o,e[r](u,e[r].bind(e,u,l))});var xe=Ne(f+u);R(e,"onload",xe),U(C,()=>{R(t.body,"onload",xe)}),R(t,"onreadystatechange",Ne(h+j)),R(e,"onmessage",Ne(f+k));var Me=function(a){void 0===a&&(a=!0);var o=1,i={},c=e=>{--o||X(n.emit.bind(n,"i"),_wpmeteor.rdelay)};Array.from(t.getElementsByTagName("*")).forEach(t=>{var n,d,l,f,v,h,m,y,g,b;if("IMG"===t.tagName){var E=t.currentSrc||t.src;!E||i[E]||E.match(/^data:/i)||("lazy"!==(t.loading||"").toLowerCase()?n=E:(f=t,v={"4g":1250,"3g":2500,"2g":2500}[(navigator.connection||{}).effectiveType]||0,h=f.getBoundingClientRect(),m=-1*D-v,y=-1*q-v,g=D+v,b=q+v,h.left>=b||h.right<=y||h.top>=g||h.bottom<=m||(n=E)))}else if(t.tagName===N)be(t[s](T+"src"));else if("LINK"===t.tagName&&"script"===t[s]("as")&&["pre"+u,"modulepre"+u].indexOf(t[s]("rel"))>=0)Ee[t[s]("href")]=!0;else if((d=e.getComputedStyle(t))&&(l=(d.backgroundImage||"").match(/^url\s*\((.*?)\)/i))&&(l||[]).length){var w=l[0].slice(4,-1).replace(/"/g,"");i[w]||w.match(/^data:/i)||(n=w)}if(n){i[n]=!0;var L=new Image;a&&(o++,L[r](u,c),L[r](p,c)),L.src=n}}),t.fonts.ready.then(()=>{c()})};_wpmeteor.rdelay<0?(U(C,t.dispatchEvent.bind(t,new CustomEvent("i"))),U(C,n.emit.bind(n,"i"))):0===_wpmeteor.rdelay?U(C,()=>X(Me.bind(null,!1))):V(u,Me)}(window,document,"addEventListener","removeEventListener","getAttribute","setAttribute","removeAttribute","hasAttribute","load","error")}]);
+</script><script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-async data-wpmeteor-src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Divya -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7834639304548379"
+     data-ad-slot="3290866763"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript" >
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<link rel="pingback" href="https://thescoopbeats.com/xmlrpc.php">
+
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<meta property="og:type" content="article">
+<meta property="og:title" content="Do you Know Shah Rukh Khan Had A Different Name In Childhood ?">
+<meta property="og:site_name" content="Scoop Beats">
+<meta property="og:description" content="Shahrukh Khan had told about his childhood name in an interview. Shahrukh Khan&#039;s childhood name is Abdur Rahman. This name">
+<meta property="og:url" content="https://thescoopbeats.com/do-you-know-shah-rukh-khan-had-a-different-name-in-childhood/">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://i0.wp.com/thescoopbeats.com/wp-content/uploads/2021/06/images-2-2.jpeg?fit=715%2C402&amp;ssl=1">
+<meta property="og:image:height" content="402">
+<meta property="og:image:width" content="715">
+<meta property="article:published_time" content="2021-06-26T13:20:00+00:00">
+<meta property="article:modified_time" content="2021-06-26T13:28:34+00:00">
+<meta property="article:tag" content="Abdur Khan">
+<meta property="article:tag" content="Bollywood King Khan">
+<meta property="article:tag" content="Shahrukh Khan">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Do you Know Shah Rukh Khan Had A Different Name In Childhood ?">
+<meta name="twitter:description" content="Shahrukh Khan had told about his childhood name in an interview. Shahrukh Khan&#039;s childhood name is Abdur Rahman. This name">
+<meta name="twitter:url" content="https://thescoopbeats.com/do-you-know-shah-rukh-khan-had-a-different-name-in-childhood/">
+<meta name="twitter:site" content="">
+<meta name="twitter:image:src" content="https://i0.wp.com/thescoopbeats.com/wp-content/uploads/2021/06/images-2-2.jpeg?fit=715%2C402&amp;ssl=1">
+<meta name="twitter:image:width" content="715">
+<meta name="twitter:image:height" content="402">
+<!-- Jetpack Site Verification Tags -->
+<meta name="google-site-verification" content="tgDNc28Lf5gd0kkpQ0a7D-zQFTfmTMHdEDy42qHRfDY" />
+
+	<!-- This site is optimized with the Yoast SEO plugin v19.7.2 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Do you Know Shah Rukh Khan Had A Different Name In Childhood ? - Scoop Beats Shah Rukh Khan&#039;s childhood name is Abdur Rahman, know why he changed</title>
+	<meta name="description" content="Shahrukh Khan&#039;s childhood name is Abdur Rahman. This name was given to him by his maternal grandmother......" />
+	<link rel="canonical" href="https://thescoopbeats.com/do-you-know-shah-rukh-khan-had-a-different-name-in-childhood/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Do you Know Shah Rukh Khan Had A Different Name In Childhood ? - Scoop Beats Shah Rukh Khan&#039;s childhood name is Abdur Rahman, know why he changed" />
+	<meta property="og:description" content="Shahrukh Khan&#039;s childhood name is Abdur Rahman. This name was given to him by his maternal grandmother......" />
+	<meta property="og:url" content="https://thescoopbeats.com/do-you-know-shah-rukh-khan-had-a-different-name-in-childhood/" />
+	<meta property="og:site_name" content="Scoop Beats" />
+	<meta property="article:publisher" content="https://www.facebook.com/theScoopBeats" />
+	<meta property="article:published_time" content="2021-06-26T13:20:00+00:00" />
+	<meta property="article:modified_time" content="2021-06-26T13:28:34+00:00" />
+	<meta property="og:image" content="https://i0.wp.com/thescoopbeats.com/wp-content/uploads/2021/06/images-2-2.jpeg?fit=715%2C402&ssl=1" />
+	<meta property="og:image:width" content="715" />
+	<meta property="og:image:height" content="402" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="author" content="Ankit Singh" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:creator" content="@thescoopbeats" />
+	<meta name="twitter:site" content="@thescoopbeats" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="Ankit Singh" />
+	<meta name="twitter:label2" content="Est. reading time" />
+	<meta name="twitter:data2" content="1 minute" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"NewsArticle","@id":"https://thescoopbeats.com/do-you-know-shah-rukh-khan-had-a-different-name-in-childhood/#article","isPartOf":{"@id":"https://thescoopbeats.com/do-you-know-shah-rukh-khan-had-a-different-name-in-childhood/"},"author":{"name":"Ankit Singh","@id":"https://thescoopbeats.com/#/schema/person/75aa25fdeb0bc0f5da76d09d2b8e4be7"},"headline":"Do you Know Shah Rukh Khan Had A Different Name In Childhood ?","datePublished":"2021-06-26T13:20:00+00:00","dateModified":"2021-06-26T13:28:34+00:00","mainEntityOfPage":{"@id":"https://thescoopbeats.com/do-you-know-shah-rukh-khan-had-a-different-name-in-childhood/"},"wordCount":230,"publisher":{"@id":"https://thescoopbeats.com/#organization"},"image":{"@id":"https://thescoopbeats.com/do-you-know-shah-rukh-khan-had-a-different-name-in-childhood/#primaryimage"},"thumbnailUrl":"https://i0.wp.com/thescoopbeats.com/wp-content/uploads/2021/06/images-2-2.jpeg?fit=715%2C402&ssl=1","keywords":["Abdur Khan","Bollywood King Khan","Shahrukh Khan"],"articleSection":["Bollywood","Entertainment"],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://thescoopbeats.com/do-you-know-shah-rukh-khan-had-a-different-name-in-childhood/","url":"https://thescoopbeats.com/do-you-know-shah-rukh-khan-had-a-different-name-in-childhood/","name":"Do you Know Shah Rukh Khan Had A Different Name In Childhood ? - Scoop Beats Shah Rukh Khan's childhood name is Abdur Rahman, know why he changed","isPartOf":{"@id":"https://thescoopbeats.com/#website"},"primaryImageOfPage":{"@id":"https://thescoopbeats.com/do-you-know-shah-rukh-khan-had-a-different-name-in-childhood/#primaryimage"},"image":{"@id":"https://thescoopbeats.com/do-you-know-shah-rukh-khan-had-a-different-name-in-childhood/#primaryimage"},"thumbnailUrl":"https://i0.wp.com/thescoopbeats.com/wp-content/uploads/2021/06/images-2-2.jpeg?fit=715%2C402&ssl=1","datePublished":"2021-06-26T13:20:00+00:00","dateModified":"2021-06-26T13:28:34+00:00","description":"Shahrukh Khan's childhood name is Abdur Rahman. This name was given to him by his maternal grandmother......","breadcrumb":{"@id":"https://thescoopbeats.com/do-you-know-shah-rukh-khan-had-a-different-name-in-childhood/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://thescoopbeats.com/do-you-know-shah-rukh-khan-had-a-different-name-in-childhood/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://thescoopbeats.com/do-you-know-shah-rukh-khan-had-a-different-name-in-childhood/#primaryimage","url":"https://i0.wp.com/thescoopbeats.com/wp-content/uploads/2021/06/images-2-2.jpeg?fit=715%2C402&ssl=1","contentUrl":"https://i0.wp.com/thescoopbeats.com/wp-content/uploads/2021/06/images-2-2.jpeg?fit=715%2C402&ssl=1","width":715,"height":402},{"@type":"BreadcrumbList","@id":"https://thescoopbeats.com/do-you-know-shah-rukh-khan-had-a-different-name-in-childhood/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://thescoopbeats.com/"},{"@type":"ListItem","position":2,"name":"Do you Know Shah Rukh Khan Had A Different Name In Childhood ?"}]},{"@type":"WebSite","@id":"https://thescoopbeats.com/#website","url":"https://thescoopbeats.com/","name":"Scoop Beats","description":"Unfolding the truth","publisher":{"@id":"https://thescoopbeats.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://thescoopbeats.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://thescoopbeats.com/#organization","name":"The Scoop Beats","url":"https://thescoopbeats.com/","sameAs":["https://www.instagram.com/thescoopbeats","https://www.linkedin.com/in/thescoopbeats","https://www.facebook.com/theScoopBeats","https://twitter.com/thescoopbeats"],"logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://thescoopbeats.com/#/schema/logo/image/","url":"https://i2.wp.com/thescoopbeats.com/wp-content/uploads/2021/02/tSBlogoWhite.jpg?fit=2289%2C2289&ssl=1","contentUrl":"https://i2.wp.com/thescoopbeats.com/wp-content/uploads/2021/02/tSBlogoWhite.jpg?fit=2289%2C2289&ssl=1","width":2289,"height":2289,"caption":"The Scoop Beats"},"image":{"@id":"https://thescoopbeats.com/#/schema/logo/image/"}},{"@type":"Person","@id":"https://thescoopbeats.com/#/schema/person/75aa25fdeb0bc0f5da76d09d2b8e4be7","name":"Ankit Singh","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://thescoopbeats.com/#/schema/person/image/","url":"https://thescoopbeats.com/wp-content/uploads/2021/07/images-6.jpeg","contentUrl":"https://thescoopbeats.com/wp-content/uploads/2021/07/images-6.jpeg","caption":"Ankit Singh"},"description":"As a journalist, I am never afraid of exposing the truth.","url":"https://thescoopbeats.com/author/ankits/"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='dns-prefetch' href='//secure.gravatar.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='dns-prefetch' href='//c0.wp.com' />
+<link rel='dns-prefetch' href='//widgets.wp.com' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//0.gravatar.com' />
+<link rel='dns-prefetch' href='//1.gravatar.com' />
+<link rel='dns-prefetch' href='//2.gravatar.com' />
+<link rel='dns-prefetch' href='//jetpack.wordpress.com' />
+<link rel='dns-prefetch' href='//public-api.wordpress.com' />
+<link rel='dns-prefetch' href='//i0.wp.com' />
+<link rel="alternate" type="application/rss+xml" title="Scoop Beats &raquo; Feed" href="https://thescoopbeats.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Scoop Beats &raquo; Comments Feed" href="https://thescoopbeats.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Scoop Beats &raquo; Stories Feed" href="https://thescoopbeats.com/web-stories/feed/">		<!-- This site uses the Google Analytics by MonsterInsights plugin v8.9.0 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script data-cfasync="false" data-wpmeteor-after="REORDER" data-wpmeteor-src="//www.googletagmanager.com/gtag/js?id=UA-155272334-1"  data-cfasync="false" data-wpfc-render="false" type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-async></script>
+			<script data-cfasync="false" data-wpmeteor-after="REORDER" data-cfasync="false" data-wpfc-render="false" type="javascript/blocked" data-wpmeteor-type="text/javascript" >
+				var mi_version = '8.9.0';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+				
+								var disableStrs = [
+															'ga-disable-UA-155272334-1',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.MonsterInsightsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (mi_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+							
+														parameters.send_to = monsterinsights_frontend.ua;
+							__gtagDataLayer(type, name, parameters);
+													} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dZGIzZG': true,
+											});
+															__gtagTracker('config', 'UA-155272334-1', {"forceSSL":"true","link_attribution":"true"} );
+										window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getByName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+				<!-- / Google Analytics by MonsterInsights -->
+		<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript" >
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/thescoopbeats.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.2"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://c0.wp.com/c/6.0.2/wp-includes/css/dist/block-library/style.min.css' type='text/css' media='all' />
+<style id='wp-block-library-inline-css' type='text/css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel='stylesheet' id='mediaelement-css'  href='https://c0.wp.com/c/6.0.2/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='https://c0.wp.com/c/6.0.2/wp-includes/js/mediaelement/wp-mediaelement.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-components-css'  href='https://c0.wp.com/c/6.0.2/wp-includes/css/dist/components/style.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wptelegram-widget--blocks-css'  href='https://thescoopbeats.com/wp-content/plugins/wptelegram-widget/assets/static/css/wptelegram-widget--blocks.dba99b9d.css?ver=1662890468' type='text/css' media='all' />
+<style id='wptelegram-widget--blocks-inline-css' type='text/css'>
+:root {--wptelegram-widget-join-link-bg-color: #389ce9;--wptelegram-widget-join-link-color: #fff}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href='https://thescoopbeats.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.6.3' type='text/css' media='all' />
+<link rel='stylesheet' id='koo-style-css'  href='https://thescoopbeats.com/wp-content/plugins/koo-social-share/assets/css/style.css?ver=6.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='usp_style-css'  href='https://thescoopbeats.com/wp-content/plugins/user-submitted-posts/resources/usp.css?ver=20220517' type='text/css' media='all' />
+<link rel='stylesheet' id='mc4wp-form-themes-css'  href='https://thescoopbeats.com/wp-content/plugins/mailchimp-for-wp/assets/css/form-themes.css?ver=4.8.10' type='text/css' media='all' />
+<link rel='stylesheet' id='wptelegram-widget--public-css'  href='https://thescoopbeats.com/wp-content/plugins/wptelegram-widget/assets/static/css/wptelegram-widget--public.f7e72fcf.css?ver=1662890468' type='text/css' media='all' />
+<link rel='stylesheet' id='versal-style-css'  href='https://thescoopbeats.com/wp-content/themes/versal/style.css?ver=6.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-css'  href='https://thescoopbeats.com/wp-content/themes/versal/styles/fontawesome-all.css?ver=6.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='versal-mobile-css'  href='https://thescoopbeats.com/wp-content/themes/versal/style-mobile.css?ver=6.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='versal-fonts-css'  href='//fonts.googleapis.com/css?family=Libre+Franklin%3A400%2C400i%2C700%7CPoppins%3A400%2C600%2C700%2C800%26subset%3Dcyrillic%2Ccyrillic-ext%2Cgreek%2Cgreek-ext%2Clatin-ext%2Cvietnamese&#038;ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='cff-css'  href='https://thescoopbeats.com/wp-content/plugins/custom-facebook-feed/assets/css/cff-style.min.css?ver=4.1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='sb-font-awesome-css'  href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css?ver=6.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='rt-team-css-css'  href='https://thescoopbeats.com/wp-content/plugins/tlp-team/assets/css/tlpteam.css?ver=4.1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='rt-team-sc-css'  href='https://thescoopbeats.com/wp-content/uploads/tlp-team/team-sc.css?ver=1643174651' type='text/css' media='all' />
+<link rel='stylesheet' id='newsletter-css'  href='https://thescoopbeats.com/wp-content/plugins/newsletter/style.css?ver=7.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wpgdprc-front-css-css'  href='https://thescoopbeats.com/wp-content/plugins/wp-gdpr-compliance/Assets/css/front.css?ver=1664877669' type='text/css' media='all' />
+<style id='wpgdprc-front-css-inline-css' type='text/css'>
+:root{--wp-gdpr--bar--background-color: #000000;--wp-gdpr--bar--color: #ffffff;--wp-gdpr--button--background-color: #000000;--wp-gdpr--button--background-color--darken: #000000;--wp-gdpr--button--color: #ffffff;}
+</style>
+<link rel='stylesheet' id='social-logos-css'  href='https://c0.wp.com/p/jetpack/11.4/_inc/social-logos/social-logos.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='https://c0.wp.com/p/jetpack/11.4/css/jetpack.css' type='text/css' media='all' />
+<link rel='stylesheet' id='jnews-weather-style-css'  href='https://thescoopbeats.com/wp-content/plugins/jnews-weather/assets/css/plugin.css?ver=7.0.1' type='text/css' media='all' />
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript" >
+            window._nslDOMReady = function (callback) {
+                if ( document.readyState === "complete" || document.readyState === "interactive" ) {
+                    callback();
+                } else {
+                    document.addEventListener( "DOMContentLoaded", callback );
+                }
+            };
+            </script><script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  id='jetpack_related-posts-js-extra'>
+/* <![CDATA[ */
+var related_posts_js_options = {"post_heading":"h4"};
+/* ]]> */
+</script>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src='https://c0.wp.com/p/jetpack/11.4/_inc/build/related-posts/related-posts.min.js' id='jetpack_related-posts-js'></script>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src='https://thescoopbeats.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js?ver=8.9.0' id='monsterinsights-frontend-script-js'></script>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" data-cfasync="false" data-wpfc-render="false" type="javascript/blocked" data-wpmeteor-type="text/javascript"  id='monsterinsights-frontend-script-js-extra'>/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/thescoopbeats.com","hash_tracking":"false","ua":"UA-155272334-1","v4_id":""};/* ]]> */
+</script>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src='https://www.google.com/recaptcha/api.js?ver=20220517' id='usp_recaptcha-js'></script>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src='https://c0.wp.com/c/6.0.2/wp-includes/js/jquery/jquery.min.js' id='jquery-core-js'></script>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src='https://c0.wp.com/c/6.0.2/wp-includes/js/jquery/jquery-migrate.min.js' id='jquery-migrate-js'></script>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src='https://thescoopbeats.com/wp-content/plugins/user-submitted-posts/resources/jquery.cookie.js?ver=20220517' id='usp_cookie-js'></script>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src='https://thescoopbeats.com/wp-content/plugins/user-submitted-posts/resources/jquery.parsley.min.js?ver=20220517' id='usp_parsley-js'></script>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  id='usp_core-js-before'>
+var usp_custom_field = "usp_custom_field"; var usp_custom_checkbox = "usp_custom_checkbox"; var usp_case_sensitivity = "false"; var usp_challenge_response = "2"; var usp_min_images = 1; var usp_max_images = 1; var usp_parsley_error = "Incorrect response."; var usp_multiple_cats = 0; var usp_existing_tags = 0; var usp_recaptcha_disp = "show"; var usp_recaptcha_vers = 2; var usp_recaptcha_key = ""; 
+</script>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src='https://thescoopbeats.com/wp-content/plugins/user-submitted-posts/resources/jquery.usp.core.js?ver=20220517' id='usp_core-js'></script>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  id='wpgdprc-front-js-js-extra'>
+/* <![CDATA[ */
+var wpgdprcFront = {"ajaxUrl":"https:\/\/thescoopbeats.com\/wp-admin\/admin-ajax.php","ajaxNonce":"b3077c230a","ajaxArg":"security","pluginPrefix":"wpgdprc","blogId":"1","isMultiSite":"","locale":"en_US","showSignUpModal":"","showFormModal":"","cookieName":"wpgdprc-consent","consentVersion":"","path":"\/","prefix":"wpgdprc"};
+/* ]]> */
+</script>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src='https://thescoopbeats.com/wp-content/plugins/wp-gdpr-compliance/Assets/js/front.min.js?ver=1664877669' id='wpgdprc-front-js-js'></script>
+<link rel="https://api.w.org/" href="https://thescoopbeats.com/wp-json/" /><link rel="alternate" type="application/json" href="https://thescoopbeats.com/wp-json/wp/v2/posts/19897" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://thescoopbeats.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://thescoopbeats.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 6.0.2" />
+<meta name="generator" content="Seriously Simple Podcasting 2.16.2" />
+<link rel='shortlink' href='https://wp.me/pbuKMH-5aV' />
+<link rel="alternate" type="application/json+oembed" href="https://thescoopbeats.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthescoopbeats.com%2Fdo-you-know-shah-rukh-khan-had-a-different-name-in-childhood%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://thescoopbeats.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthescoopbeats.com%2Fdo-you-know-shah-rukh-khan-had-a-different-name-in-childhood%2F&#038;format=xml" />
+			<meta property="fb:pages" content="367354050502679" />
+							<meta property="ia:markup_url" content="https://thescoopbeats.com/do-you-know-shah-rukh-khan-had-a-different-name-in-childhood/?ia_markup=1" />
+				
+<link rel="alternate" type="application/rss+xml" title="Podcast RSS feed" href="https://thescoopbeats.com/feed/podcast" />
+
+<style>img#wpstats{display:none}</style>
+	      <!--Customizer CSS--> 
+      <style type="text/css">
+	  
+	  
+           	  
+            
+		   
+		    
+		   
+		   
+            
+      </style> 
+      <!--/Customizer CSS-->
+            <meta name="onesignal" content="wordpress-plugin"/>
+            <script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript" >
+
+      window.OneSignal = window.OneSignal || [];
+
+      OneSignal.push( function() {
+        OneSignal.SERVICE_WORKER_UPDATER_PATH = 'OneSignalSDKUpdaterWorker.js';
+                      OneSignal.SERVICE_WORKER_PATH = 'OneSignalSDKWorker.js';
+                      OneSignal.SERVICE_WORKER_PARAM = { scope: '/wp-content/plugins/onesignal-free-web-push-notifications/sdk_files/push/onesignal/' };
+        OneSignal.setDefaultNotificationUrl("https://thescoopbeats.com");
+        var oneSignal_options = {};
+        window._oneSignalInitOptions = oneSignal_options;
+
+        oneSignal_options['wordpress'] = true;
+oneSignal_options['appId'] = '';
+oneSignal_options['allowLocalhostAsSecureOrigin'] = true;
+oneSignal_options['httpPermissionRequest'] = { };
+oneSignal_options['httpPermissionRequest']['enable'] = true;
+oneSignal_options['welcomeNotification'] = { };
+oneSignal_options['welcomeNotification']['title'] = "";
+oneSignal_options['welcomeNotification']['message'] = "";
+oneSignal_options['path'] = "https://thescoopbeats.com/wp-content/plugins/onesignal-free-web-push-notifications/sdk_files/";
+oneSignal_options['promptOptions'] = { };
+oneSignal_options['notifyButton'] = { };
+oneSignal_options['notifyButton']['enable'] = true;
+oneSignal_options['notifyButton']['position'] = 'bottom-right';
+oneSignal_options['notifyButton']['theme'] = 'default';
+oneSignal_options['notifyButton']['size'] = 'medium';
+oneSignal_options['notifyButton']['showCredit'] = true;
+oneSignal_options['notifyButton']['text'] = {};
+                OneSignal.init(window._oneSignalInitOptions);
+                      });
+
+      function documentInitOneSignal() {
+        var oneSignal_elements = document.getElementsByClassName("OneSignal-prompt");
+
+        var oneSignalLinkClickHandler = function(event) { OneSignal.push(['registerForPushNotifications']); event.preventDefault(); };        for(var i = 0; i < oneSignal_elements.length; i++)
+          oneSignal_elements[i].addEventListener('click', oneSignalLinkClickHandler, false);
+      }
+
+      if (document.readyState === 'complete') {
+           documentInitOneSignal();
+      }
+      else {
+           window.addEventListener("load", function(event){
+               documentInitOneSignal();
+          });
+      }
+    </script>
+<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Organization","@id":"https:\/\/thescoopbeats.com\/#organization","url":"https:\/\/thescoopbeats.com\/","name":"\"\"","logo":{"@type":"ImageObject","url":""},"sameAs":[]}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"https:\/\/thescoopbeats.com\/#website","url":"https:\/\/thescoopbeats.com\/","name":"\"\"","potentialAction":{"@type":"SearchAction","target":"https:\/\/thescoopbeats.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<link rel="icon" href="https://i0.wp.com/thescoopbeats.com/wp-content/uploads/2021/06/cropped-Untitled-design.png?fit=32%2C32&#038;ssl=1" sizes="32x32" />
+<link rel="icon" href="https://i0.wp.com/thescoopbeats.com/wp-content/uploads/2021/06/cropped-Untitled-design.png?fit=192%2C192&#038;ssl=1" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://i0.wp.com/thescoopbeats.com/wp-content/uploads/2021/06/cropped-Untitled-design.png?fit=180%2C180&#038;ssl=1" />
+<meta name="msapplication-TileImage" content="https://i0.wp.com/thescoopbeats.com/wp-content/uploads/2021/06/cropped-Untitled-design.png?fit=270%2C270&#038;ssl=1" />
+<style id="jeg_dynamic_css" type="text/css" data-type="jeg_custom-css">.jeg_top_weather { background : ; } .jeg_top_weather > .jeg_weather_temp, .jeg_midbar .jeg_top_weather > .jeg_weather_temp > .jeg_weather_unit, .jeg_top_weather > .jeg_weather_location { color : ; } .jeg_top_weather .jeg_weather_condition .jeg_weather_icon { color : ; } .jeg_top_weather .jeg_weather_item { background : ; } .jeg_top_weather .jeg_weather_item .jeg_weather_temp:hover, .jeg_weather_widget .jeg_weather_item:hover { background : ; } .jeg_top_weather .jeg_weather_item .jeg_weather_temp .jeg_weather_icon { color : ; border-color : ; } .jeg_top_weather .jeg_weather_item .jeg_weather_temp .jeg_weather_value, .jeg_top_weather .jeg_weather_item .jeg_weather_temp .jeg_weather_unit { color : ; } .jeg_top_weather .jeg_weather_item .jeg_weather_temp .jeg_weather_day { color : ; } </style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>	
+	<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-ad-client="ca-pub-7834639304548379" data-wpmeteor-async data-wpmeteor-src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-async data-wpmeteor-src="https://www.googletagmanager.com/gtag/js?id=UA-155272334-1"></script>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript" >
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-155272334-1');
+</script>
+
+</head>
+
+     
+<body data-rsssl=1 class="post-template-default single single-post postid-19897 single-format-standard wpb-js-composer js-comp-ver-6.4.2 vc_responsive">
+
+<div id="curtain" class="tranz">
+
+	<div class="container">
+
+		<ul class="social-menu">
+
+<li class="sprite-facebook">
+	<a title="Facebook" href="https://www.facebook.com/theScoopBeats"><i class="fab fa-facebook-f"></i><span>Facebook</span></a>
+</li>
+<li class="sprite-twitter">
+	<a title="Twitter" href="https://www.twitter.com/theScoopBeats"><i class="fab fa-twitter"></i><span>Twitter</span></a>
+</li>
+
+<li class="sprite-instagram">
+	<a title="Instagram" href="https://www.instagram.com/theScoopBeats"><i class="fab fa-instagram"></i><span>Instagram</span></a>
+</li>
+
+
+<li class="sprite-linkedin">
+	<a title="LinkedIn" href="https://www.linkedin.com/in/thescoopbeats-567274188/"><i class="fab fa-linkedin-in"></i><span>LinkedIn</span></a>
+</li>
+</ul>
+<form class="searchform" role="search" method="get" class="search-form" action="https://thescoopbeats.com/">
+	<label for="search-form-634179617a8dd"><span class="screen-reader-text">Search for:</span></label>
+	<input type="search" id="search-form-634179617a8dd"  class="s rad p-border" placeholder="Search &hellip;" value="" name="s" />
+	<button type="submit" class="searchSubmit ribbon"><i class="fas fa-search"></i></button>
+</form>    
+    </div>
+    
+    <a class='curtainclose rad' href="#" ><i class="far fa-times-circle"></i></a>
+    
+</div>
+
+<div class="postbar ">
+        
+    <div id="header" class="clearfix" itemscope itemtype="http://schema.org/WPHeader">
+    
+    	<div class="head-bg-image"><img src="" height="100" width="1200" alt="" /></div>
+    
+        <div class="container">
+            
+            <div id="titles">
+                                                    		<h1 class="site-title"><a href="https://thescoopbeats.com/">Scoop Beats</a></h1>
+    					<p class="site-description site-tagline">Unfolding the truth</p>
+					            </div><!-- end #titles  -->
+        
+        	<a class="searchOpen share-icon" href="#" ><i class="fas fa-share-alt"></i></a>
+        
+        	<a class="searchOpen" href="#" ><i class="fas fa-search"></i></a>
+              
+        </div><!-- end .container  -->
+    
+    	<a id="navtrigger" class="rad ribbon" href="#"><i class="fa fa-bars"></i></a>
+    
+    </div><!-- end #header  -->
+    
+    <nav id="navigation" class="wpm_boxshadow ghost" itemscope itemtype="http://schema.org/SiteNavigationElement"> 
+    
+        <ul id="main-nav" class="nav tmnf_custom_menu"><li id="menu-item-19902" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-19902"><a href="https://thescoopbeats.com/home-1/">Home</a></li>
+<li id="menu-item-19903" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-has-children menu-item-19903"><a href="https://thescoopbeats.com/category/news/">News</a>
+<ul class="sub-menu">
+	<li id="menu-item-19910" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-19910"><a href="https://thescoopbeats.com/category/news/elections/">Elections</a>
+	<ul class="sub-menu">
+		<li id="menu-item-19911" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19911"><a href="https://thescoopbeats.com/category/general-elections/">General Elections</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-19904" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-19904"><a href="https://thescoopbeats.com/category/entertainment/">Entertainment</a>
+<ul class="sub-menu">
+	<li id="menu-item-19905" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-19905"><a href="https://thescoopbeats.com/category/news/bollywood/">Bollywood</a></li>
+</ul>
+</li>
+<li id="menu-item-19907" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-19907"><a href="https://thescoopbeats.com/category/sports/">Sports</a>
+<ul class="sub-menu">
+	<li id="menu-item-19908" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19908"><a href="https://thescoopbeats.com/category/cricket/">Cricket</a></li>
+</ul>
+</li>
+<li id="menu-item-19906" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-19906"><a href="https://thescoopbeats.com/category/news/technology/">Technology</a>
+<ul class="sub-menu">
+	<li id="menu-item-19909" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19909"><a href="https://thescoopbeats.com/category/gadgets/">Gadgets</a></li>
+</ul>
+</li>
+<li id="menu-item-19913" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19913"><a href="https://thescoopbeats.com/category/news/automobile/">Automobile</a></li>
+<li id="menu-item-19912" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19912"><a href="https://thescoopbeats.com/category/zodiacs/">Zodiacs</a></li>
+<li id="menu-item-26171" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26171"><a href="https://donation.thescoopbeats.com">Donate</a></li>
+<li id="menu-item-26496" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26496"><a href="https://thescoopbeats.com/scoop-beats-videos/">Videos</a></li>
+</ul>        
+    </nav><!-- end #navigation  -->
+    
+	<div class="wrapper">
+  
+    
+      
+<div itemscope itemtype="http://schema.org/NewsArticle">
+<meta itemscope itemprop="mainEntityOfPage"  content=""  itemType="https://schema.org/WebPage" itemid="https://thescoopbeats.com/do-you-know-shah-rukh-khan-had-a-different-name-in-childhood/"/>
+
+<div id="core" class="container_alt">
+   
+    <div class="postbar">
+    
+    	<div class="post-head">
+
+            <h1 class="entry-title" itemprop="headline"><span itemprop="name">Do you Know Shah Rukh Khan Had A Different Name In Childhood ?</span></h1>
+            
+                    
+            <div class="meta-single p-border">
+                
+                    
+	<p class="meta author tranz"> 
+        <img src="https://i0.wp.com/thescoopbeats.com/wp-content/uploads/2021/07/images-6.jpeg?fit=22%2C17&#038;ssl=1" width="22" height="17" alt="Ankit Singh" class="avatar avatar-22 wp-user-avatar wp-user-avatar-22 alignnone photo" /><span>by: <a href="https://thescoopbeats.com/author/ankits/" title="Posts by Ankit Singh" rel="author">Ankit Singh</a></span>    </p>
+    
+        
+	<p class="meta date tranz post-date"> 
+        <i class="fas fa-clock"></i> June 26, 2021    </p>
+        
+	<p class="meta cat tranz ribbon">
+		<a href="https://thescoopbeats.com/category/news/bollywood/" rel="category tag">Bollywood</a> &bull; <a href="https://thescoopbeats.com/category/entertainment/" rel="category tag">Entertainment</a>    </p>
+                    
+            </div>
+	
+    	</div>
+
+        <div id="content" class="eightcol first">
+            
+            
+<div class="item normal tranz p-border post-19897 post type-post status-publish format-standard has-post-thumbnail hentry category-bollywood category-entertainment tag-abdur-khan tag-bollywood-king-khan tag-shahrukh-khan">
+
+    
+        
+        <div class="entryhead rad" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+            
+            <a href="https://thescoopbeats.com/do-you-know-shah-rukh-khan-had-a-different-name-in-childhood/">
+            
+            	<img width="715" height="402" src="https://i0.wp.com/thescoopbeats.com/wp-content/uploads/2021/06/images-2-2.jpeg?resize=715%2C402&amp;ssl=1" class="standard grayscale grayscale-fade wp-post-image" alt="" srcset="https://i0.wp.com/thescoopbeats.com/wp-content/uploads/2021/06/images-2-2.jpeg?w=715&amp;ssl=1 715w, https://i0.wp.com/thescoopbeats.com/wp-content/uploads/2021/06/images-2-2.jpeg?resize=300%2C169&amp;ssl=1 300w, https://i0.wp.com/thescoopbeats.com/wp-content/uploads/2021/06/images-2-2.jpeg?resize=150%2C84&amp;ssl=1 150w" sizes="(max-width: 715px) 100vw, 715px" />            
+            </a>
+            
+                    
+        </div><!-- end .entryhead -->
+ 
+                  
+    <div class="clearfix"></div>
+    
+    <div class="item_inn tranz p-border">
+                             
+        <div class="entry" itemprop="text">
+              
+            <div class='code-block code-block-1' style='margin: 8px 0; clear: both;'>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-async data-wpmeteor-src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6458830048117866"
+     crossorigin="anonymous"></script>
+<!-- Scoop Ad -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6458830048117866"
+     data-ad-slot="1110830755"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript" >
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<div class="wp-block-wptelegram-widget-join-channel aligncenter">
+	<a href="https://t.me/ScoopBeatsNews" class="components-button join-link is-large has-text has-icon" target="_self" rel="noopener noreferrer">
+		<svg width="19px" height="16px" viewBox="0 0 19 16" role="img" aria-hidden="true" focusable="false">
+			<g>
+				<path d="M0.465,6.638 L17.511,0.073 C18.078,-0.145 18.714,0.137 18.932,0.704 C19.009,0.903 19.026,1.121 18.981,1.33 L16.042,15.001 C15.896,15.679 15.228,16.111 14.549,15.965 C14.375,15.928 14.211,15.854 14.068,15.748 L8.223,11.443 C7.874,11.185 7.799,10.694 8.057,10.345 C8.082,10.311 8.109,10.279 8.139,10.249 L14.191,4.322 C14.315,4.201 14.317,4.002 14.195,3.878 C14.091,3.771 13.926,3.753 13.8,3.834 L5.602,9.138 C5.112,9.456 4.502,9.528 3.952,9.333 L0.486,8.112 C0.077,7.967 -0.138,7.519 0.007,7.11 C0.083,6.893 0.25,6.721 0.465,6.638 Z" ></path>
+			</g>
+		</svg>
+		Follow on Telegram @ScoopBeatsNews	</a>
+</div>
+<div class='code-block code-block-2' style='margin: 8px 0; clear: both;'>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-async data-wpmeteor-src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6458830048117866"
+     crossorigin="anonymous"></script>
+<!-- Scoop Ad -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6458830048117866"
+     data-ad-slot="1110830755"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript" >
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<p>Shahrukh Khan had told about his childhood name in an interview. Shahrukh Khan&#8217;s childhood name is Abdur Rahman. This name was given to him by his maternal grandmother. However, this name was never registered. After this his father changed his name to Shahrukh Khan.</p><div class='code-block code-block-3' style='margin: 8px 0; clear: both;'>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-async data-wpmeteor-src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6458830048117866"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6458830048117866"
+     data-ad-slot="5894658657"></ins>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript" >
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+
+<p>Shahrukh Khan says, &#8216;I don&#8217;t know any person named Abdur Rahman but my maternal grandmother named me Abdur Rahman in my childhood. My name not registered anywhere but she wanted my name to Abdur Rahman. I felt a bit strange right now. You think Abdur&nbsp; in Baazigar, nothing suits Shahrukh Khan in Baazigar, he looks better.</p>
+<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/CO2w1UcFcAR/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+<div style="padding:16px;"> <a href="https://www.instagram.com/p/CO2w1UcFcAR/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> </p>
+<div style=" display: flex; flex-direction: row; align-items: center;">
+<div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div>
+<div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
+<div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div>
+<div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div>
+</div>
+</div>
+<div style="padding: 19% 0;"></div>
+<div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div>
+<div style="padding-top: 8px;">
+<div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div>
+</div>
+<div style="padding: 12.5% 0;"></div>
+<div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;">
+<div>
+<div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div>
+<div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div>
+<div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div>
+</div>
+<div style="margin-left: 8px;">
+<div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div>
+<div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div>
+</div>
+<div style="margin-left: auto;">
+<div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div>
+<div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div>
+<div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div>
+</div>
+</div>
+<div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;">
+<div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div>
+<div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div>
+</div>
+<p></a></p>
+<p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/CO2w1UcFcAR/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Shah Rukh Khan (@iamsrk)</a></p>
+</div>
+</blockquote>
+<p><script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-async data-wpmeteor-src="//platform.instagram.com/en_US/embeds.js"></script></p>
+<p><strong>Read More : <a href="https://thescoopbeats.com/19846-2dhanush-to-spend-%e2%82%b9150-crore-for-his-new-poes-garden-house-in-chennai/">Dhanush to spend ₹150 crore for his new Poes Garden house in Chennai</a></strong></p>
+<p>Shahrukh Khan also said that in childhood his cousin used to tease him with this name. Describing this, Shahrukh Khan said, &#8216;They used to say, when you get married, then we will sing Abdur Rahman&#8217;s Main Abdur Rahmania&#8217; Shahrukh Khan will soon seen in the film Pathan. This is a spy film. Apart from him, Deepika Padukone and John Abraham have important roles in this film. Apart from this, he is also going to seen in the film of Rajkumar Hirani and South&#8217;s director Italy. He has worked in many films.</p>
+<div><h5>SHARE</h5><a title="Koo" class="koo-link koo-bg" href="http://www.kooapp.com/create?title=Do%20you%20Know%20Shah%20Rukh%20Khan%20Had%20A%20Different%20Name%20In%20Childhood%20?&#038;link=https%3A%2F%2Fthescoopbeats.com%2Fdo-you-know-shah-rukh-khan-had-a-different-name-in-childhood%2F" target="_blank" rel="nofollow"><img class="koo-img" src="https://thescoopbeats.com/wp-content/plugins/koo-social-share/assets/icons/Koo bird.svg" /></a><a title="Whatsapp" class="koo-link whatsapp-bg" href="https://api.whatsapp.com/send?text=Do%20you%20Know%20Shah%20Rukh%20Khan%20Had%20A%20Different%20Name%20In%20Childhood%20?%20%20https%3A%2F%2Fthescoopbeats.com%2Fdo-you-know-shah-rukh-khan-had-a-different-name-in-childhood%2F" target="_blank" rel="nofollow"><img class="koo-img" src="https://thescoopbeats.com/wp-content/plugins/koo-social-share/assets/icons/Whatsapp.svg" /></a><a title="Facebook" class="koo-link facebook-bg" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fthescoopbeats.com%2Fdo-you-know-shah-rukh-khan-had-a-different-name-in-childhood%2F" target="_blank" rel="nofollow"><img class="koo-img" src="https://thescoopbeats.com/wp-content/plugins/koo-social-share/assets/icons/Facebook.svg" /></a><a title="Pinterest" class="koo-link pinterest-bg" href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fthescoopbeats.com%2Fdo-you-know-shah-rukh-khan-had-a-different-name-in-childhood%2F&#038;media=https://i0.wp.com/thescoopbeats.com/wp-content/uploads/2021/06/images-2-2.jpeg?fit=715%2C402&#038;ssl=1&#038;description=Do%20you%20Know%20Shah%20Rukh%20Khan%20Had%20A%20Different%20Name%20In%20Childhood%20?" target="_blank" rel="nofollow"><img class="koo-img" src="https://thescoopbeats.com/wp-content/plugins/koo-social-share/assets/icons/pinterest.svg" /></a><a title="Telegram" class="koo-link telegram-bg" href="https://t.me/share/url?url=https%3A%2F%2Fthescoopbeats.com%2Fdo-you-know-shah-rukh-khan-had-a-different-name-in-childhood%2F&#038;text=Do%20you%20Know%20Shah%20Rukh%20Khan%20Had%20A%20Different%20Name%20In%20Childhood%20?" target="_blank" rel="nofollow"><img class="koo-img" src="https://thescoopbeats.com/wp-content/plugins/koo-social-share/assets/icons/telegram.svg" /></a><a title="Print" class="koo-link default-bg" onclick="if (!window.__cfRLUnblockHandlers) return false; window.print()" target="_blank" rel="nofollow" data-cf-modified-e4f536a38b15e46e0cc1eaf8-=""><img class="koo-img" src="https://thescoopbeats.com/wp-content/plugins/koo-social-share/assets/icons/Printer.svg" /></a><a title="Twitter" class="koo-link twitter-bg" href="https://twitter.com/intent/tweet?text=Do%20you%20Know%20Shah%20Rukh%20Khan%20Had%20A%20Different%20Name%20In%20Childhood%20?&#038;url=https%3A%2F%2Fthescoopbeats.com%2Fdo-you-know-shah-rukh-khan-had-a-different-name-in-childhood%2F&#038;via=kooIndia" target="_blank" rel="nofollow"><img class="koo-img"
+				 src="https://thescoopbeats.com/wp-content/plugins/koo-social-share/assets/icons/twitter.svg" /></a></div><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-reddit"><a rel="nofollow noopener noreferrer" data-shared="" class="share-reddit sd-button share-icon no-text" href="https://thescoopbeats.com/do-you-know-shah-rukh-khan-had-a-different-name-in-childhood/?share=reddit" target="_blank" title="Click to share on Reddit" ><span></span><span class="sharing-screen-reader-text">Click to share on Reddit (Opens in new window)</span></a></li><li class="share-pinterest"><a rel="nofollow noopener noreferrer" data-shared="sharing-pinterest-19897" class="share-pinterest sd-button share-icon no-text" href="https://thescoopbeats.com/do-you-know-shah-rukh-khan-had-a-different-name-in-childhood/?share=pinterest" target="_blank" title="Click to share on Pinterest" ><span></span><span class="sharing-screen-reader-text">Click to share on Pinterest (Opens in new window)</span></a></li><li class="share-skype"><a rel="nofollow noopener noreferrer" data-shared="sharing-skype-19897" class="share-skype sd-button share-icon no-text" href="https://thescoopbeats.com/do-you-know-shah-rukh-khan-had-a-different-name-in-childhood/?share=skype" target="_blank" title="Click to share on Skype" ><span></span><span class="sharing-screen-reader-text">Click to share on Skype (Opens in new window)</span></a></li><li><a href="#" class="sharing-anchor sd-button share-more"><span>More</span></a></li><li class="share-end"></li></ul><div class="sharing-hidden"><div class="inner" style="display: none;"><ul><li class="share-linkedin"><a rel="nofollow noopener noreferrer" data-shared="sharing-linkedin-19897" class="share-linkedin sd-button share-icon no-text" href="https://thescoopbeats.com/do-you-know-shah-rukh-khan-had-a-different-name-in-childhood/?share=linkedin" target="_blank" title="Click to share on LinkedIn" ><span></span><span class="sharing-screen-reader-text">Click to share on LinkedIn (Opens in new window)</span></a></li><li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-19897" class="share-facebook sd-button share-icon no-text" href="https://thescoopbeats.com/do-you-know-shah-rukh-khan-had-a-different-name-in-childhood/?share=facebook" target="_blank" title="Click to share on Facebook" ><span></span><span class="sharing-screen-reader-text">Click to share on Facebook (Opens in new window)</span></a></li><li class="share-end"></li><li class="share-telegram"><a rel="nofollow noopener noreferrer" data-shared="" class="share-telegram sd-button share-icon no-text" href="https://thescoopbeats.com/do-you-know-shah-rukh-khan-had-a-different-name-in-childhood/?share=telegram" target="_blank" title="Click to share on Telegram" ><span></span><span class="sharing-screen-reader-text">Click to share on Telegram (Opens in new window)</span></a></li><li class="share-jetpack-whatsapp"><a rel="nofollow noopener noreferrer" data-shared="" class="share-jetpack-whatsapp sd-button share-icon no-text" href="https://thescoopbeats.com/do-you-know-shah-rukh-khan-had-a-different-name-in-childhood/?share=jetpack-whatsapp" target="_blank" title="Click to share on WhatsApp" ><span></span><span class="sharing-screen-reader-text">Click to share on WhatsApp (Opens in new window)</span></a></li><li class="share-end"></li><li class="share-end"></li></ul></div></div></div></div></div><div class='sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded' id='like-post-wrapper-169869379-19897-63417961d6a1e' data-src='https://widgets.wp.com/likes/#blog_id=169869379&amp;post_id=19897&amp;origin=thescoopbeats.com&amp;obj_id=169869379-19897-63417961d6a1e' data-name='like-post-frame-169869379-19897-63417961d6a1e' data-title='Like or Reblog'><h3 class="sd-title">Like this:</h3><div class='likes-widget-placeholder post-likes-widget-placeholder' style='height: 55px;'><span class='button'><span>Like</span></span> <span class="loading">Loading...</span></div><span class='sd-text-color'></span><a class='sd-link-color'></a></div>
+<div id='jp-relatedposts' class='jp-relatedposts' >
+	<h3 class="jp-relatedposts-headline"><em>Related</em></h3>
+</div><!-- AI CONTENT END 1 -->
+<div class="post-pagination"></div>            
+            <div class="clearfix"></div>
+            
+        </div><!-- end .entry -->
+        
+            
+<div class="postinfo p-border">    
+
+<p class="meta taggs"> <a href="https://thescoopbeats.com/tag/abdur-khan/" rel="tag">Abdur Khan</a> <a href="https://thescoopbeats.com/tag/bollywood-king-khan/" rel="tag">Bollywood King Khan</a> <a href="https://thescoopbeats.com/tag/shahrukh-khan/" rel="tag">Shahrukh Khan</a></p>        <p class="modified small cntr" itemprop="dateModified" >Last modified: June 26, 2021</p>
+	
+<div id="post-nav">
+            <div class="post-previous tranz">
+            <a class="post-nav-image" href="https://thescoopbeats.com/19846-2dhanush-to-spend-%e2%82%b9150-crore-for-his-new-poes-garden-house-in-chennai/"><img width="150" height="150" src="https://i0.wp.com/thescoopbeats.com/wp-content/uploads/2021/06/Screenshot_20210626-181856_Instagram.jpg?resize=150%2C150&amp;ssl=1" class="grayscale grayscale-fade wp-post-image" alt="" loading="lazy" srcset="https://i0.wp.com/thescoopbeats.com/wp-content/uploads/2021/06/Screenshot_20210626-181856_Instagram.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/thescoopbeats.com/wp-content/uploads/2021/06/Screenshot_20210626-181856_Instagram.jpg?resize=400%2C400&amp;ssl=1 400w, https://i0.wp.com/thescoopbeats.com/wp-content/uploads/2021/06/Screenshot_20210626-181856_Instagram.jpg?resize=640%2C640&amp;ssl=1 640w, https://i0.wp.com/thescoopbeats.com/wp-content/uploads/2021/06/Screenshot_20210626-181856_Instagram.jpg?resize=96%2C96&amp;ssl=1 96w, https://i0.wp.com/thescoopbeats.com/wp-content/uploads/2021/06/Screenshot_20210626-181856_Instagram.jpg?resize=75%2C75&amp;ssl=1 75w, https://i0.wp.com/thescoopbeats.com/wp-content/uploads/2021/06/Screenshot_20210626-181856_Instagram.jpg?zoom=2&amp;resize=150%2C150&amp;ssl=1 300w, https://i0.wp.com/thescoopbeats.com/wp-content/uploads/2021/06/Screenshot_20210626-181856_Instagram.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" /><span class="arrow"><i class="fa fa-chevron-left"></i>
+</span></a>
+            <a class="post-nav-text ghost boxshadow" href="https://thescoopbeats.com/19846-2dhanush-to-spend-%e2%82%b9150-crore-for-his-new-poes-garden-house-in-chennai/">Previous Story:<br/> <strong>Dhanush to spend ₹150 crore for his new Poes Garden house in Chennai</strong></a>
+        </div>
+            <div class="post-next tranz">
+            <a class="post-nav-image" href="https://thescoopbeats.com/sonu-of-taarak-mehta-ka-ooltah-chashma-now-looks-so-glamorous/"><img width="150" height="150" src="https://i0.wp.com/thescoopbeats.com/wp-content/uploads/2021/06/27_06_2021-sonu_nidhi_bhaushali__21776428.jpg?resize=150%2C150&amp;ssl=1" class="grayscale grayscale-fade wp-post-image" alt="" loading="lazy" srcset="https://i0.wp.com/thescoopbeats.com/wp-content/uploads/2021/06/27_06_2021-sonu_nidhi_bhaushali__21776428.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/thescoopbeats.com/wp-content/uploads/2021/06/27_06_2021-sonu_nidhi_bhaushali__21776428.jpg?resize=400%2C400&amp;ssl=1 400w, https://i0.wp.com/thescoopbeats.com/wp-content/uploads/2021/06/27_06_2021-sonu_nidhi_bhaushali__21776428.jpg?resize=96%2C96&amp;ssl=1 96w, https://i0.wp.com/thescoopbeats.com/wp-content/uploads/2021/06/27_06_2021-sonu_nidhi_bhaushali__21776428.jpg?resize=75%2C75&amp;ssl=1 75w, https://i0.wp.com/thescoopbeats.com/wp-content/uploads/2021/06/27_06_2021-sonu_nidhi_bhaushali__21776428.jpg?zoom=2&amp;resize=150%2C150&amp;ssl=1 300w, https://i0.wp.com/thescoopbeats.com/wp-content/uploads/2021/06/27_06_2021-sonu_nidhi_bhaushali__21776428.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" /><span class="arrow"><i class="fa fa-chevron-right"></i>
+</span></a>
+            <a class="post-nav-text ghost tranz boxshadow" href="https://thescoopbeats.com/sonu-of-taarak-mehta-ka-ooltah-chashma-now-looks-so-glamorous/">Next Story:<br/> <strong>Sonu of Taarak Mehta ka ooltah Chashma, Now looks so glamorous</strong></a>
+        </div>
+    </div><div class="clearfix"></div>        <div class="postauthor vcard author ghost rad wpm_boxshadow"  itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+        	<h3 class="additional">About the Author: <span class="fn" itemprop="name"><a href="https://thescoopbeats.com/author/ankits/" title="Posts by Ankit Singh" rel="author">Ankit Singh</a></span></h3>
+            <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+            
+            	<img src="https://thescoopbeats.com/wp-content/uploads/2021/07/images-6.jpeg" class="avatar avatar-80 photo" height="80" width="80" /> 
+				
+            </div>
+            
+ 			<div class="authordesc">As a journalist, I am never afraid of exposing the truth.</div>
+            
+		</div>
+		<div class="clearfix"></div>            
+</div>
+
+<div class="clearfix"></div>
+ 			
+            
+
+                        
+
+<div id="comments" class="p-border">
+
+	<p class="nocomments">Comments are closed.</p>
+
+
+
+</div><!-- #comments -->
+        
+	</div><!-- end .item_inn -->
+      
+</div>               
+        </div><!-- end #content -->
+    
+        
+	<div id="sidebar"  class="fourcol woocommerce p-border">
+    
+    	        
+            <div class="widgetable p-border">
+    
+                <div class="sidele ghost"><script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript" >(function() {
+	window.mc4wp = window.mc4wp || {
+		listeners: [],
+		forms: {
+			on: function(evt, cb) {
+				window.mc4wp.listeners.push(
+					{
+						event   : evt,
+						callback: cb
+					}
+				);
+			}
+		}
+	}
+})();
+</script><!-- Mailchimp for WordPress v4.8.10 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-464 mc4wp-form-theme mc4wp-form-theme-dark" method="post" data-id="464" data-name="Newsletter SignUp" ><div class="mc4wp-form-fields"><div class="footer-newsletter">
+<p>
+   <i class="fa fa-paper-plane" aria-hidden="true"></i>
+
+	<input type="email"  name="EMAIL" placeholder="Your email" required />
+</p>
+
+
+	<input type="submit" value="Subscribe" />
+
+
+</div></div><label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></label><input type="hidden" name="_mc4wp_timestamp" value="1665235298" /><input type="hidden" name="_mc4wp_form_id" value="464" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /><div class="mc4wp-response"></div></form><!-- / Mailchimp for WordPress Plugin --></div>            
+            </div>
+            
+		        
+    	        
+            <div class="widgetable widgetable_sticky">
+    
+                <div class="sidele ghost">
+<form class="searchform" role="search" method="get" class="search-form" action="https://thescoopbeats.com/">
+	<label for="search-form-6341796203313"><span class="screen-reader-text">Search for:</span></label>
+	<input type="search" id="search-form-6341796203313"  class="s rad p-border" placeholder="Search &hellip;" value="" name="s" />
+	<button type="submit" class="searchSubmit ribbon"><i class="fas fa-search"></i></button>
+</form></div>
+		<div class="sidele ghost">
+		<h2 class="widget">Recent Posts</h2>
+		<ul>
+											<li>
+					<a href="https://thescoopbeats.com/salary-endorsements-and-surprising-facts-about-stuart-binny/">Salary, Endorsements, and Surprising Facts about Stuart Binny</a>
+									</li>
+											<li>
+					<a href="https://thescoopbeats.com/report-russia-detained-a-isis-bomber-who-planned-attack-on-indian-leader/">Report: Russia Detained a ISIS Bomber Who Planned Attack On Indian Leader</a>
+									</li>
+											<li>
+					<a href="https://thescoopbeats.com/jaylissa-lea-shares-three-ways-to-avoid-crypto-and-nft-scams/">Jaylissa Lea Shares Three Ways to Avoid Crypto and NFT Scams</a>
+									</li>
+											<li>
+					<a href="https://thescoopbeats.com/michael-fenech-succeeds-in-business-through-laser-concentration-originality/">MICHAEL FENECH SUCCEEDS IN BUSINESS THROUGH LASER CONCENTRATION &amp; ORIGINALITY</a>
+									</li>
+											<li>
+					<a href="https://thescoopbeats.com/dr-minoo-ghamari-launches-melbourne-dental-spa-with-mother-now-expanding/">Dr. Minoo Ghamari Launches Melbourne ‘Dental Spa’ With Mother, Now Expanding</a>
+									</li>
+					</ul>
+
+		</div>            
+            </div>
+        
+                
+    </div><!-- #sidebar -->    
+    </div><!-- end .postbar -->
+    
+</div> 
+
+        
+           
+
+    </div><!-- /.container -->
+    
+        <div class="footer-icons ghost p-border"><ul class="social-menu">
+
+<li class="sprite-facebook">
+	<a title="Facebook" href="https://www.facebook.com/theScoopBeats"><i class="fab fa-facebook-f"></i><span>Facebook</span></a>
+</li>
+<li class="sprite-twitter">
+	<a title="Twitter" href="https://www.twitter.com/theScoopBeats"><i class="fab fa-twitter"></i><span>Twitter</span></a>
+</li>
+
+<li class="sprite-instagram">
+	<a title="Instagram" href="https://www.instagram.com/theScoopBeats"><i class="fab fa-instagram"></i><span>Instagram</span></a>
+</li>
+
+
+<li class="sprite-linkedin">
+	<a title="LinkedIn" href="https://www.linkedin.com/in/thescoopbeats-567274188/"><i class="fab fa-linkedin-in"></i><span>LinkedIn</span></a>
+</li>
+</ul></div>
+    
+        <div id="footer">
+        
+            <div class="container woocommerce"> 
+            
+                
+       	        
+        
+                
+        
+                
+        
+                        
+            </div>
+                <div class="clearfix"></div>
+                
+            <div id="copyright">
+                
+                <div class="container">
+                    
+                    <ul id="menu-footer-menu" class="bottom-menu"><li id="menu-item-19915" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-19915"><a href="https://thescoopbeats.com/home-1/">Home</a></li>
+<li id="menu-item-20779" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20779"><a href="https://thescoopbeats.com/about/">About us</a></li>
+<li id="menu-item-19922" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19922"><a href="https://thescoopbeats.com/privacy-policy-2/">Privacy Policy</a></li>
+<li id="menu-item-19921" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19921"><a href="https://thescoopbeats.com/terms/">Terms and Conditions</a></li>
+<li id="menu-item-19916" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19916"><a href="https://thescoopbeats.com/policy/factcheck/">Fact-Checking Policy</a></li>
+<li id="menu-item-19917" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19917"><a href="https://thescoopbeats.com/policy/ethics/">Code of Ethics</a></li>
+<li id="menu-item-19918" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19918"><a href="https://thescoopbeats.com/policy/corrections/">Corrections Policy</a></li>
+<li id="menu-item-19920" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19920"><a href="https://thescoopbeats.com/disclaimer/">Disclaimer</a></li>
+<li id="menu-item-19919" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19919"><a href="https://thescoopbeats.com/contact/">Contact</a></li>
+</ul>                    
+                    <div id="footer-text" class="site-info">
+                        <div id="footer-text" class="site-info">
+                       <div id="footer-text" class="site-info">
+                       Copyright © 2020 <a href="https://theScoopBeats.com" title="If It Matters To You, It Matters To Us">The Scoop Beats</a>
+                    </div><!-- .site-info -->
+                          
+                </div> 
+            
+            </div>
+                
+        </div><!-- /#footer  -->
+        
+    </div><!-- /.wrapper  -->
+
+</div><!-- /.postbar  -->
+
+
+    
+<div class="scrollTo_top rad ribbon" style="display: block">
+
+    <a title="Scroll To Top" class="rad" href="#">
+    
+    	<i class="fa fa-chevron-up"></i> 
+        
+    </a>
+    
+</div>
+
+<!-- Custom Facebook Feed JS -->
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript" >var cffajaxurl = "https://thescoopbeats.com/wp-admin/admin-ajax.php";
+var cfflinkhashtags = "true";
+</script>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript" >(function() {function maybePrefixUrlField() {
+	if (this.value.trim() !== '' && this.value.indexOf('http') !== 0) {
+		this.value = "http://" + this.value;
+	}
+}
+
+var urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]');
+if (urlFields) {
+	for (var j=0; j < urlFields.length; j++) {
+		urlFields[j].addEventListener('blur', maybePrefixUrlField);
+	}
+}
+})();</script>	<div style="display:none">
+			<div class="grofile-hash-map-b23dd1fbfb09dc0d29edaf83fb7f7517">
+		</div>
+		</div>
+		
+	<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript" >
+		window.WPCOM_sharing_counts = {"https:\/\/thescoopbeats.com\/do-you-know-shah-rukh-khan-had-a-different-name-in-childhood\/":19897};
+	</script>
+						<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src='https://c0.wp.com/p/jetpack/11.4/_inc/build/photon/photon.min.js' id='jetpack-photon-js'></script>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src='https://thescoopbeats.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.6.3' id='swv-js'></script>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/thescoopbeats.com\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src='https://thescoopbeats.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.6.3' id='contact-form-7-js'></script>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src='https://thescoopbeats.com/wp-content/plugins/wptelegram-widget/assets/static/js/wptelegram-widget--public.3735d259.js?ver=3107a6e3de09db294cfbde72c3b724f7' id='wptelegram-widget--public-js'></script>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src='https://secure.gravatar.com/js/gprofiles.js?ver=202240' id='grofiles-cards-js'></script>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  id='wpgroho-js-extra'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src='https://c0.wp.com/p/jetpack/11.4/modules/wpgroho.js' id='wpgroho-js'></script>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src='https://thescoopbeats.com/wp-content/themes/versal/js/jquery-scrolltofixed.js?ver=6.0.2' id='scrolltofixed-js'></script>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src='https://thescoopbeats.com/wp-content/themes/versal/js/ownScript.js?ver=6.0.2' id='versal-ownScript-js'></script>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src='https://thescoopbeats.com/wp-content/plugins/custom-facebook-feed/assets/js/cff-scripts.min.js?ver=4.1.5' id='cffscripts-js'></script>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src='https://thescoopbeats.com/wp-content/plugins/jnews-weather/assets/js/plugin.js?ver=7.0.1' id='jnews-weather-js'></script>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src='https://cdn.onesignal.com/sdks/OneSignalSDK.js?ver=6.0.2' data-wpmeteor-async='async' id='remote_sdk-js'></script>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src='https://c0.wp.com/p/jetpack/11.4/_inc/build/likes/queuehandler.min.js' id='jetpack_likes_queuehandler-js'></script>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-defer data-wpmeteor-src='https://thescoopbeats.com/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js?ver=4.8.10' id='mc4wp-forms-api-js'></script>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  id='sharing-js-js-extra'>
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1","is_stats_active":"1"};
+/* ]]> */
+</script>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src='https://c0.wp.com/p/jetpack/11.4/_inc/build/sharedaddy/sharing.min.js' id='sharing-js-js'></script>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  id='sharing-js-js-after'>
+var windowOpen;
+			( function () {
+				function matches( el, sel ) {
+					return !! (
+						el.matches && el.matches( sel ) ||
+						el.msMatchesSelector && el.msMatchesSelector( sel )
+					);
+				}
+
+				document.body.addEventListener( 'click', function ( event ) {
+					if ( ! event.target ) {
+						return;
+					}
+
+					var el;
+					if ( matches( event.target, 'a.share-skype' ) ) {
+						el = event.target;
+					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-skype' ) ) {
+						el = event.target.parentNode;
+					}
+
+					if ( el ) {
+						event.preventDefault();
+
+						// If there's another sharing window open, close it.
+						if ( typeof windowOpen !== 'undefined' ) {
+							windowOpen.close();
+						}
+						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomskype', 'menubar=1,resizable=1,width=305,height=665' );
+						return false;
+					}
+				} );
+			} )();
+var windowOpen;
+			( function () {
+				function matches( el, sel ) {
+					return !! (
+						el.matches && el.matches( sel ) ||
+						el.msMatchesSelector && el.msMatchesSelector( sel )
+					);
+				}
+
+				document.body.addEventListener( 'click', function ( event ) {
+					if ( ! event.target ) {
+						return;
+					}
+
+					var el;
+					if ( matches( event.target, 'a.share-linkedin' ) ) {
+						el = event.target;
+					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-linkedin' ) ) {
+						el = event.target.parentNode;
+					}
+
+					if ( el ) {
+						event.preventDefault();
+
+						// If there's another sharing window open, close it.
+						if ( typeof windowOpen !== 'undefined' ) {
+							windowOpen.close();
+						}
+						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomlinkedin', 'menubar=1,resizable=1,width=580,height=450' );
+						return false;
+					}
+				} );
+			} )();
+var windowOpen;
+			( function () {
+				function matches( el, sel ) {
+					return !! (
+						el.matches && el.matches( sel ) ||
+						el.msMatchesSelector && el.msMatchesSelector( sel )
+					);
+				}
+
+				document.body.addEventListener( 'click', function ( event ) {
+					if ( ! event.target ) {
+						return;
+					}
+
+					var el;
+					if ( matches( event.target, 'a.share-facebook' ) ) {
+						el = event.target;
+					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-facebook' ) ) {
+						el = event.target.parentNode;
+					}
+
+					if ( el ) {
+						event.preventDefault();
+
+						// If there's another sharing window open, close it.
+						if ( typeof windowOpen !== 'undefined' ) {
+							windowOpen.close();
+						}
+						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+						return false;
+					}
+				} );
+			} )();
+var windowOpen;
+			( function () {
+				function matches( el, sel ) {
+					return !! (
+						el.matches && el.matches( sel ) ||
+						el.msMatchesSelector && el.msMatchesSelector( sel )
+					);
+				}
+
+				document.body.addEventListener( 'click', function ( event ) {
+					if ( ! event.target ) {
+						return;
+					}
+
+					var el;
+					if ( matches( event.target, 'a.share-telegram' ) ) {
+						el = event.target;
+					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-telegram' ) ) {
+						el = event.target.parentNode;
+					}
+
+					if ( el ) {
+						event.preventDefault();
+
+						// If there's another sharing window open, close it.
+						if ( typeof windowOpen !== 'undefined' ) {
+							windowOpen.close();
+						}
+						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomtelegram', 'menubar=1,resizable=1,width=450,height=450' );
+						return false;
+					}
+				} );
+			} )();
+</script>
+	<iframe src='https://widgets.wp.com/likes/master.html?ver=202240#ver=202240' scrolling='no' id='likes-master' name='likes-master' style='display:none;'></iframe>
+	<div id='likes-other-gravatars'><div class="likes-text"><span>%d</span> bloggers like this:</div><ul class="wpl-avatars sd-like-gravatars"></ul></div>
+	<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/thescoopbeats.com\/do-you-know-shah-rukh-khan-had-a-different-name-in-childhood\/"},"dateCreated":"2021-06-26 18:50:00","datePublished":"2021-06-26 18:50:00","dateModified":"2021-06-26 13:28:34","url":"https:\/\/thescoopbeats.com\/do-you-know-shah-rukh-khan-had-a-different-name-in-childhood\/","headline":"\"Do you Know Shah Rukh Khan Had A Different Name In Childhood ?\"","name":"\"Do you Know Shah Rukh Khan Had A Different Name In Childhood ?\"","articleBody":"\"Shahrukh Khan had told about his childhood name in an interview. Shahrukh Khan's childhood name is Abdur Rahman. This name was given to him by his maternal grandmother. However, this name was never registered. After this his father changed his name to Shahrukh Khan.\\n\\nShahrukh Khan says, 'I don't know any person named Abdur Rahman but my maternal grandmother named me Abdur Rahman in my childhood. My name not registered anywhere but she wanted my name to Abdur Rahman. I felt a bit strange right now. You think Abdur&nbsp; in Baazigar, nothing suits Shahrukh Khan in Baazigar, he looks better.\\n\\nhttps:\\\/\\\/www.instagram.com\\\/p\\\/CO2w1UcFcAR\\\/?utm_medium=copy_link\\n\\n<strong>Read More : <a href=\\\"https:\\\/\\\/thescoopbeats.com\\\/19846-2dhanush-to-spend-%e2%82%b9150-crore-for-his-new-poes-garden-house-in-chennai\\\/\\\">Dhanush to spend \\u20b9150 crore for his new Poes Garden house in Chennai<\\\/a><\\\/strong>\\n\\nShahrukh Khan also said that in childhood his cousin used to tease him with this name. Describing this, Shahrukh Khan said, 'They used to say, when you get married, then we will sing Abdur Rahman's Main Abdur Rahmania' Shahrukh Khan will soon seen in the film Pathan. This is a spy film. Apart from him, Deepika Padukone and John Abraham have important roles in this film. Apart from this, he is also going to seen in the film of Rajkumar Hirani and South's director Italy. He has worked in many films.\"","author":{"@type":"Person","name":"\"Ankit Singh\"","url":"https:\/\/thescoopbeats.com\/author\/ankits\/"},"articleSection":["\"Bollywood\"","\"Entertainment\""],"image":{"@type":"ImageObject","url":"https:\/\/thescoopbeats.com\/wp-content\/uploads\/2021\/06\/images-2-2.jpeg","width":715,"height":402},"publisher":{"@type":"Organization","name":"\"\"","url":"https:\/\/thescoopbeats.com","logo":{"@type":"ImageObject","url":""},"sameAs":[]}}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"hentry","entry-title":"\"Do you Know Shah Rukh Khan Had A Different Name In Childhood ?\"","published":"2021-06-26 18:50:00","updated":"2021-06-26 13:28:34"}</script>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src='https://stats.wp.com/e-202240.js' data-wpmeteor-defer></script>
+<script data-cfasync="false" data-wpmeteor-after="REORDER" type="javascript/blocked" data-wpmeteor-type="text/javascript" >
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:11.4',blog:'169869379',post:'19897',tz:'5.5',srv:'thescoopbeats.com'} ]);
+	_stq.push([ 'clickTrackerInit', '169869379', '19897' ]);
+</script>
+
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="e4f536a38b15e46e0cc1eaf8-|49" defer=""></script><script>(function(){var js = "window['__CF$cv$params']={r:'756f2e324a41794d',m:'.2.mP9.QnnAO6te5hzgwkAdBbCgLPGZVDiaGqx7YLgk-1665235298-0-AZVlKIonoGxKrw2JaDU/WDprNYwTvCS/oCi/oRyYtXJPmFMJ2JEqkKiXgwS1/H/pyTtwkH+9X8ZD+ijVlLCDyNmIJqhPnHpPzVfExE4SkpZ6LAfM/npzAx/4owoZMlXqgxUoUojEwxJdP7ltnpHDVCmrBOjXk9uJt2cgoKDjhLUIEbtpVFUK6zzmNLNVY3uMCw==',s:[0xa34bae1e86,0xe8ab31f7b4],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+</html>

@@ -1,0 +1,3761 @@
+.bollyImgText {
+  height: 65vh;
+  width: 55vw;
+  background: transparent url('./components/img/BollyOne.webp') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px;
+  background-size: cover;
+  border-radius: 7px;
+  position: relative;
+}
+
+.BollysecContent {
+  width: 86vw;
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.BinfoCard {
+  width: 25vw;
+  height: 70vh;
+  background-color: #FCFCFC;
+  box-shadow: 0px 5px 35px #00000008;
+  border-radius: 7px;
+  opacity: 1;
+}
+
+.bollyleftImgText {
+  position: absolute;
+  bottom: 10vh;
+  left: 5vw;
+}
+
+.BollyrightTop {
+  width: 29.5vw;
+  height: 31vh;
+  background: transparent url('./components/img/BollySix.jpg') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000D;
+  opacity: 1;
+  background-size: cover;
+  border-radius: 7px;
+  position: relative;
+}
+
+.BollyrightSec {
+  margin-top: 3vh;
+  width: 29.5vw;
+  height: 31vh;
+  background: transparent url('./components/img/BollySix.jpg') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000D;
+  border-radius: 7px;
+  opacity: 1;
+  background-size: cover;
+  position: relative;
+}
+
+.Bollyimage {
+  width: 25vw;
+  height: 32vh;
+  background: transparent url('./components/img/BollyTwo.jpg') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000D;
+  border-radius: 7px 7px 0px 0px;
+  opacity: 1;
+  background-size: cover;
+}
+
+.BollywaveImg {
+  margin-left: 3vw;
+  width: 20vw;
+  height: 30vh;
+  background-color: black;
+  background: transparent url('./components/img/BollyFive.jpg') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000D;
+  border-radius: 2px;
+  opacity: 1;
+  background-size: cover;
+}
+
+.BollytopImage {
+  margin-top: 3%;
+  width: 29.4vw;
+  height: 40vh;
+  background: transparent url('./components/img/BollySix.jpg') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000D;
+  border-radius: 3px;
+  opacity: 1;
+  background-size: cover;
+}
+
+.BollygalleryImg {
+  width: 55vw;
+  height: 73vh;
+  margin-top: 3vh;
+  background: transparent url('./components/img/BollySix.jpg') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000D;
+  border-radius: 5px;
+  opacity: 1;
+  background-size: cover;
+  position: relative;
+}
+
+.BollytopTextImg {
+  width: 10vw;
+  height: 16vh;
+  margin: auto;
+  background: transparent url('./components/img/hrx.jpeg') 0% 0% no-repeat padding-box;
+  background-size: cover;
+  box-shadow: 0px 5px 10px #0000000D;
+  border-radius: 2px;
+  opacity: 1;
+}
+
+/* Technology */
+
+.FitsecContent {
+  width: 86vw;
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.FinfoCard {
+  width: 25vw;
+  height: 70vh;
+  background-color: #FCFCFC;
+  box-shadow: 0px 5px 35px #00000008;
+  border-radius: 7px;
+  opacity: 1;
+}
+
+.TechnoImgText {
+  height: 65vh;
+  width: 55vw;
+  background: transparent url('./components/img/TechnoThree.jpg') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px;
+  background-size: cover;
+  border-radius: 7px;
+  position: relative;
+}
+
+.headAlign {
+  text-decoration: none;
+}
+
+.TechnoleftImgText {
+  position: absolute;
+  bottom: 10vh;
+  left: 5vw;
+}
+
+.TechnorightTop {
+  width: 29.5vw;
+  height: 31vh;
+  background: transparent url('./components/img/TechnoThree.jpg') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000D;
+  opacity: 1;
+  background-size: cover;
+  border-radius: 7px;
+  position: relative;
+}
+
+.TechnorightSec {
+  margin-top: 3vh;
+  width: 29.5vw;
+  height: 31vh;
+  background: transparent url('./components/img/TechnoThree.jpg') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000D;
+  border-radius: 7px;
+  opacity: 1;
+  background-size: cover;
+  position: relative;
+}
+
+.Technoimage {
+  width: 25vw;
+  height: 32vh;
+  background: transparent url('./components/img/imgTechFour.jpg') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000D;
+  border-radius: 7px 7px 0px 0px;
+  opacity: 1;
+  background-size: cover;
+}
+
+.TechnowaveImg {
+  margin-left: 3vw;
+  width: 20vw;
+  height: 30vh;
+  background-color: black;
+  background: transparent url('./components/img/imgTech.webp') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000D;
+  border-radius: 2px;
+  opacity: 1;
+  background-size: cover;
+}
+
+.TechnotopImage {
+  margin-top: 3%;
+  width: 29.4vw;
+  height: 40vh;
+  background: transparent url('./components/img/technoFour.webp') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000D;
+  border-radius: 3px;
+  opacity: 1;
+  background-size: cover;
+}
+
+.TechnogalleryImg {
+  width: 55vw;
+  height: 73vh;
+  margin-top: 3vh;
+  background: transparent url('./components/img/TechnoThree.jpg') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000D;
+  border-radius: 5px;
+  opacity: 1;
+  background-size: cover;
+  position: relative;
+}
+
+.TechnostopTextOne{
+  display: flex;
+}
+
+.TechnotopTextImg {
+  width: 10vw;
+  height: 16vh;
+  margin: auto;
+  background: transparent url('./components/img/technoFive.jpg') 0% 0% no-repeat padding-box;
+  background-size: cover;
+  box-shadow: 0px 5px 10px #0000000D;
+  border-radius: 2px;
+  opacity: 1;
+}
+
+.ltextOne {
+  padding: 4% 0% 0% 1%;
+  width: 14vw;
+  height: 18vh;
+  margin-left: 2%;
+}
+
+.topTextOne {
+  overflow-y: hidden;
+  width: 29.4vw;
+  height: 18vh;
+  padding: 0%;
+  display: flex;
+}
+
+/* HollyWood */
+
+.hollyImgText {
+  height: 65vh;
+  width: 55vw;
+  background: transparent url('./components/img/HollyFive.jpg') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px;
+  background-size: cover;
+  border-radius: 7px;
+  position: relative;
+}
+
+.secContent{
+  display: flex;
+  height: 80vh;
+  justify-content: space-between;
+}
+
+.TechnoleftImgText {
+  position: absolute;
+  bottom: 10vh;
+  left: 5vw;
+}
+
+.hollyrightTop {
+  width: 29.5vw;
+  height: 31vh;
+  background: transparent url('./components/img/HollyThree.jpg') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000D;
+  opacity: 1;
+  background-size: cover;
+  border-radius: 7px;
+  position: relative;
+}
+
+.hollyrightSec {
+  margin-top: 3vh;
+  width: 29.5vw;
+  height: 31vh;
+  background: transparent url('./components/img/HollyThree.jpg') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000D;
+  border-radius: 7px;
+  opacity: 1;
+  background-size: cover;
+  position: relative;
+}
+
+.hollyimage {
+  width: 25vw;
+  height: 32vh;
+  background: transparent url('./components/img/HollySix.jpg') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000D;
+  border-radius: 7px 7px 0px 0px;
+  opacity: 1;
+  background-size: cover;
+}
+
+.hollywaveImg {
+  margin-left: 3vw;
+  width: 20vw;
+  height: 30vh;
+  background-color: black;
+  background: transparent url('./components/img/imgHollyOne.jpg') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000D;
+  border-radius: 2px;
+  opacity: 1;
+  background-size: cover;
+}
+
+.hollytopImage {
+  margin-top: 3%;
+  width: 29.4vw;
+  height: 40vh;
+  background: transparent url('./components/img/HollyFive.jpg') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000D;
+  border-radius: 3px;
+  opacity: 1;
+  background-size: cover;
+}
+
+.hollygalleryImg {
+  width: 55vw;
+  height: 73vh;
+  margin-top: 3vh;
+  background: transparent url('./components/img/HollyFive.jpg') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000D;
+  border-radius: 5px;
+  opacity: 1;
+  background-size: cover;
+  position: relative;
+}
+
+.hollytopTextImg {
+  width: 10vw;
+  height: 16vh;
+  margin: auto;
+  background: transparent url('./components/img/HollyFive.jpg') 0% 0% no-repeat padding-box; 
+  background-size: cover;
+  box-shadow: 0px 5px 10px #0000000D;
+  border-radius: 2px;
+  opacity: 1;
+}
+
+/* Fitness */
+
+.FitImgText {
+  height: 65vh;
+  width: 55vw;
+  background: transparent url('./components/img/fitSix.jpg') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px;
+  background-size: cover;
+  border-radius: 7px;
+  position: relative;
+}
+
+.TechnoleftImgText {
+  position: absolute;
+  bottom: 10vh;
+  left: 5vw;
+}
+
+.FitrightTop {
+  width: 29.5vw;
+  height: 31vh;
+  background: transparent url('./components/img/fitTwo.jpg') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000D;
+  opacity: 1;
+  background-size: cover;
+  border-radius: 7px;
+  position: relative;
+}
+
+.FitrightSec {
+  margin-top: 3vh;
+  width: 29.5vw;
+  height: 31vh;
+  background: transparent url('./components/img/fitTwo.jpg') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000D;
+  border-radius: 7px;
+  opacity: 1;
+  background-size: cover;
+  position: relative;
+}
+
+.Fitimage {
+  width: 25vw;
+  height: 32vh;
+  background: transparent url('./components/img/fitThree.jpg') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000D;
+  border-radius: 7px 7px 0px 0px;
+  opacity: 1;
+  background-size: cover;
+}
+
+.FitwaveImg {
+  margin-left: 3vw;
+  width: 20vw;
+  height: 30vh;
+  background-color: black;
+  background: transparent url('./components/img/fitFour.jpg') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000D;
+  border-radius: 2px;
+  opacity: 1;
+  background-size: cover;
+}
+
+.FittopImage {
+  margin-top: 3%;
+  width: 29.4vw;
+  height: 40vh;
+  background: transparent url('./components/img/fitSix.jpg') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000D;
+  border-radius: 3px;
+  opacity: 1;
+  background-size: cover;
+}
+
+.FitgalleryImg {
+  width: 55vw;
+  height: 73vh;
+  margin-top: 3vh;
+  background: transparent url('./components/img/fitSix.jpg') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000D;
+  border-radius: 5px;
+  opacity: 1;
+  background-size: cover;
+  position: relative;
+}
+
+.FitgallTitle {
+  font-size: 40px;
+  font-family: medium Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  position: absolute;
+  bottom: 15vh;
+  left: 10vw;
+}
+
+.FittravGall {
+  font-size: 17px;
+  font-family: medium Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  position: absolute;
+  bottom: 10vh;
+  left: 20vw;
+}
+
+.FittopTextImg {
+  width: 10vw;
+  height: 16vh;
+  margin: auto;
+  background: transparent url('./components/img/fitfive.jpg') 0% 0% no-repeat padding-box;
+  background-size: cover;
+  box-shadow: 0px 5px 10px #0000000D;
+  border-radius: 2px;
+  opacity: 1;
+}
+
+/* Food */
+
+.FoodImgText {
+  height: 65vh;
+  width: 55vw;
+  background: transparent url('./components/img/foodOne.jpg') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px;
+  background-size: cover;
+  border-radius: 7px;
+  position: relative;
+}
+
+.TechnoleftImgText {
+  position: absolute;
+  bottom: 10vh;
+  left: 5vw;
+}
+
+.FoodrightTop {
+  width: 29.5vw;
+  height: 31vh;
+  background: transparent url('./components/img/foodTwo.jpeg') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000D;
+  opacity: 1;
+  background-size: cover;
+  border-radius: 7px;
+  position: relative;
+}
+
+.FoodrightSec {
+  margin-top: 3vh;
+  width: 29.5vw;
+  height: 31vh;
+  background: transparent url('./components/img/foodTwo.jpeg') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000D;
+  border-radius: 7px;
+  opacity: 1;
+  background-size: cover;
+  position: relative;
+}
+
+.Foodimage {
+  width: 25vw;
+  height: 32vh;
+  background: transparent url('./components/img/foodTwo.jpeg') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000D;
+  border-radius: 7px 7px 0px 0px;
+  opacity: 1;
+  background-size: cover;
+}
+
+.FoodwaveImg {
+  margin-left: 3vw;
+  width: 20vw;
+  height: 30vh;
+  background-color: black;
+  background: transparent url('./components/img/foodTwo.jpeg') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000D;
+  border-radius: 2px;
+  opacity: 1;
+  background-size: cover;
+}
+
+.FoodtopImage {
+  margin-top: 3%;
+  width: 29.4vw;
+  height: 40vh;
+  background: transparent url('./components/img/foodSix.webp') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000D;
+  border-radius: 3px;
+  opacity: 1;
+  background-size: cover;
+}
+
+.FoodgalleryImg {
+  width: 55vw;
+  height: 73vh;
+  margin-top: 3vh;
+  background: transparent url('./components/img/foodTwo.jpeg') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000D;
+  border-radius: 5px;
+  opacity: 1;
+  background-size: cover;
+  position: relative;
+}
+
+.FitgallTitle {
+  font-size: 40px;
+  font-family: medium Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  position: absolute;
+  bottom: 15vh;
+  left: 10vw;
+}
+
+.FittravGall {
+  font-size: 17px;
+  font-family: medium Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  position: absolute;
+  bottom: 10vh;
+  left: 20vw;
+}
+
+.FoodtopTextImg {
+  width: 10vw;
+  height: 16vh;
+  margin: auto;
+  background: transparent url('./components/img/foodSix.webp') 0% 0% no-repeat padding-box;
+  background-size: cover;
+  box-shadow: 0px 5px 10px #0000000D;
+  border-radius: 2px;
+  opacity: 1;
+}
+
+/* imageInfo Page  */
+
+.Imageheader {
+  display: flex;
+  padding: 2% 5%;
+  position: relative;
+  height: 5vh;
+  width: 100%;
+}
+
+.ImageHead {
+  width: 5vw;
+  height: 5vh;
+  transform: matrix(0, -1, 1, 0, 0, 0);
+  font-size: 19px;
+  font-family: medium Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-top: 5px;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  writing-mode: vertical-lr;
+  position: absolute;
+  left: 5.5%;
+}
+
+.imageSpiran {
+  font-size: 44px;
+  font-family: medium Montserrat;
+  font-weight: bold;
+  color: #000000;
+  position: absolute;
+  left: 10%;
+}
+
+.btnGet {
+  position: absolute;
+  right: 20%;
+  top: 45%;
+  background-color: transparent;
+  border: 1px solid green;
+  color: green;
+  padding: 0.5% 1%;
+}
+
+.btnGet:hover {
+  background-color: green;
+  color: white;
+}
+
+.imageContent {
+  width: 100vw;
+  height: auto;
+  display: flex;
+}
+
+.options {
+  width: 30%;
+  height: 100vh;
+  text-align: center;
+}
+
+.imageDataInfo {
+  padding-top: 2%;
+  width: 40%;
+  height: auto;
+}
+
+body {
+  position: relative;
+}
+
+.blankDiv {
+  width: 30%;
+  height: 100vh;
+}
+
+.stickyText {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  position: absolute;
+  margin-left: 10vw;
+  margin-top: 65vh;
+}
+
+.clap {
+  width: 15vw;
+  height: 6vh;
+  display: flex;
+}
+
+.clapImg {
+  width: 20%;
+  height: 5vh;
+  background: url('./components/img/rythm.png');
+  opacity: 1;
+  background-repeat: no-repeat;
+}
+
+.followers {
+  margin-left: 1vw;
+  font-size: 16px;
+  font-family: Open Sans;
+  letter-spacing: 0px;
+  color: #939393;
+  opacity: 1;
+}
+
+.share {
+  width: 15vw;
+  height: 5vh;
+  display: flex;
+}
+
+.shareImg {
+  width: 12%;
+  height: 4vh;
+  background-image: url('./components/img/share.png');
+  opacity: 1;
+  background-repeat: repeat;
+}
+
+.shareMsg {
+  margin-left: 2vw;
+  font-size: 16px;
+  font-family: Open Sans;
+  letter-spacing: 0px;
+  color: #939393;
+  opacity: 1;
+}
+
+.imgInfoHeading {
+  font-size: 40px;
+  font-family: Georgia;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.userProf {
+  width: 100%;
+  height: 14vh;
+  display: flex;
+  padding-top: 2%;
+  overflow: hidden;
+}
+
+.img {
+  width: 6.7vw;
+  height: 13.5vh;
+  background-image: url('./components/img/Mask\ Group\ 16.png');
+  opacity: 1;
+}
+
+.userDesc {
+  width: 13vw;
+  text-align: center;
+  height: 13.5;
+  padding-top: 6%;
+  padding-left: 2%;
+}
+
+.userName {
+  text-align: left;
+  font-size: 18px;
+  font-family: Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.userInfo {
+  text-align: left;
+  font-family: 14px;
+  font-family: Open Sans;
+  letter-spacing: 0px;
+  color: #A2A2A2;
+  opacity: 1;
+}
+
+.socialIcon {
+  width: 18vw;
+  height: 13vh;
+  overflow: hidden;
+}
+
+.socialIcon ul {
+  display: flex;
+  justify-content: right;
+  margin-top: 25%;
+  padding: 0px 10px;
+}
+
+.facebook {
+  width: 25px;
+  height: 25px;
+  background-image: url('./components/img/facebook.png');
+  background-size: cover;
+  opacity: 1;
+}
+
+.twitter {
+  width: 25px;
+  height: 25px;
+  background-image: url('./components/img/twitter.png');
+  background-size: cover;
+  opacity: 1;
+}
+
+.instagram {
+  width: 25px;
+  height: 25px;
+  background-image: url('./components/img/instagram.png');
+  background-size: cover;
+  opacity: 1;
+}
+
+.youtube {
+  width: 30px;
+  height: 30px;
+  background-image: url('./components/img/youTube.png');
+  background-size: cover;
+  opacity: 1;
+}
+
+.reactImage {
+  margin-top: 2%;
+  width: 40vw;
+  height: 45vh;
+  opacity: 1;
+  overflow: hidden;
+}
+
+.reactImage img{
+  width: 100%;
+  height: 100%;
+}
+
+.contImg {
+  margin-top: 5%;
+  padding-top: 2%;
+  width: 40vw;
+  height: 60vh;
+}
+
+.contImg p {
+  text-align: left;
+  font-size: 21px;
+  font-family: normal normal normal Georgia;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.codeImg {
+  width: 40vw;
+  height: 50vh;
+  opacity: 1;
+  overflow: hidden;
+}
+
+.codeImg img{
+  width: 100%;
+  height: 100%;
+}
+
+.Rjava {
+  width: 30vw;
+  height: 5vh;
+  padding: 2vh 0vh;
+  display: flex;
+}
+
+.lang {
+  margin: 1%;
+  width: 5vw;
+  padding: 2px 0px;
+  height: 1.5vw;
+  background-color: #F2F2F2;
+  text-align: center;
+}
+
+.lang p {
+  font-size: 15px;
+  font-family: normal normal normal Open Sans;
+  letter-spacing: 0px;
+  color: #A2A2A2;
+  opacity: 1;
+}
+
+.clapalgn {
+  width: 15vw;
+  height: 5vh;
+  display: flex;
+  padding: 2%;
+  padding: 2vh 2vw;
+}
+
+.clapalgnImg {
+  width: 20%;
+  height: 5vh;
+  background: url('./components/img/rythm.png');
+  opacity: 1;
+  background-repeat: no-repeat;
+}
+
+.clapalgnfollowers {
+  margin-left: 1vw;
+  font-size: 16px;
+  font-family: Open Sans;
+  letter-spacing: 0px;
+  color: #939393;
+  opacity: 1;
+  margin-top: 4%;
+}
+
+.clasps {
+  margin-left: 1vw;
+  font-size: 16px;
+  font-family: Open Sans;
+  letter-spacing: 0px;
+  color: #939393;
+  opacity: 1;
+  margin-top: 4%;
+}
+
+.userProfTwo {
+  width: 40vw;
+  height: 17vh;
+  padding: 1%;
+  display: flex;
+}
+
+.userInfoTwo {
+  width: 15vw;
+  padding-left: 2%;
+}
+
+.userImageTwo {
+  width: 7vw;
+  height: 15vh;
+  background: transparent url('./components/img/Mask\ Group\ 16.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.autInfo {
+  font-size: 14px;
+  font-family: normal normal normal Open Sans;
+  letter-spacing: 0px;
+  color: #A2A2A2;
+  opacity: 1;
+  padding-top: 3%;
+}
+
+.authName {
+  font-size: 18px;
+  font-family: normal normal normal Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  padding-top: 5%;
+}
+
+.authDate {
+  font-size: 14px;
+  font-family: normal normal normal Open Sans;
+  letter-spacing: 0px;
+  color: #A2A2A2;
+  opacity: 1;
+  padding-top: 7%;
+}
+
+.sepe {
+  width: 40vw;
+  height: 2px;
+  background: #F0F0F0 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin: 2% 0%;
+}
+
+.footColor {
+  width: 100vw;
+  background-color: #FAFAFA;
+}
+
+.footer {
+  width: 80vw;
+  height: 100vh;
+  margin: auto;
+  background-color: #FAFAFA;
+}
+
+.moreSiren {
+  margin-top: 2vh;
+  margin-left: 2vw;
+  width: 20vw;
+  height: 5vh;
+}
+
+.moreSiren p {
+  font-size: 22px;
+  font-family: normal normal normal Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.userCards {
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.userCared {
+  width: 25vw;
+  height: 70vh;
+  overflow: hidden;
+}
+
+.taggedText {
+  padding: 4%;
+  font-size: 16px;
+  font-family: normal normal normal Open Sans;
+  letter-spacing: 0px;
+  color: #404040;
+  opacity: 1;
+}
+
+.authImage {
+  width: 25vw;
+  height: 15vw;
+  box-shadow: 0px 5px 10px #0000000D;
+  border-radius: 7px 7px 0px 0px;
+  opacity: 1;
+  overflow: hidden;
+}
+
+.authImage img{
+  width: 100%;
+  height: 100%;
+}
+
+.Joshua {
+  font-size: 32px;
+  font-family: normal normal medium Montserrat;
+  letter-spacing: 0px;
+  color: #404040;
+  opacity: 1;
+  padding: 2%;
+}
+
+.authInfoCard {
+  width: 24vw;
+  height: 15vh;
+  display: flex;
+  padding: 2%;
+}
+
+.Authpic {
+  width: 78px;
+  height: 72px;
+  background: transparent url('./components/img/Mask\ Group\ 16.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  background-size: cover;
+}
+
+.picInfo {
+  width: 20vw;
+  height: 10vh;
+  padding: 5% 0% 0% 2%;
+}
+
+.AuthPicName {
+  font-size: 16px;
+  font-family: normal normal normal Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.AuthPicDate {
+  font-size: 16px;
+  font-family: normal normal normal Open Sans;
+  letter-spacing: 0px;
+  color: #A2A2A2;
+  opacity: 1;
+}
+
+.footSepe {
+  width: 100vw;
+  height: 4px;
+  background: #F0F0F0 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin: 2% 0%;
+}
+
+@media screen and (min-width:750px) and (max-width:1000px) {
+  .bollyImgText {
+    height: 65vh;
+    width: 55vw;
+    background: transparent url('./components/img/BollyOne.webp') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px;
+    background-size: cover;
+    border-radius: 7px;
+    position: relative;
+  }
+
+  .headAlign{
+    /* width: 50vw; */
+    border: 3px solid red;
+  }
+
+  .bollyleftImgText {
+    position: absolute;
+    bottom: 10vh;
+    left: 5vw;
+  }
+
+  .BollywaveImg {
+    margin-left: 3vw;
+    width: 20vw;
+    height: 20vh;
+    background-color: black;
+    background: transparent url('./components/img/BollyFive.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 2px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .BollygalleryImg {
+    width: 55vw;
+    height: 58vh;
+    margin-top: 3vh;
+    background: transparent url('./components/img/BollySix.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 5px;
+    opacity: 1;
+    background-size: cover;
+    position: relative;
+  }
+
+  .BollytopImage {
+    margin-top: 3%;
+    width: 29.4vw;
+    height: 20vh;
+    background: transparent url('./components/img/BollySix.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 3px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .BollytopTextImg {
+    width: 20vw;
+    height: 12vh;
+    margin: auto;
+    background: transparent url('./components/img/hrx.jpeg');
+    background-size: cover;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 2px;
+    opacity: 1;
+  }
+
+  .topImage {
+    margin-top: 3%;
+    width: 29.4vw;
+    height: 20vh;
+    background: transparent urlurl('./components/img/NatureTemp.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 3px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .bltextOne{
+    margin-top: 2%;
+    margin-left: 5px;
+    width:20vw;
+    height:12vh;
+  }
+
+  .BtopTitle {
+    font-size: 15px;
+    font-family: medium Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .topTitleTwo {
+    font-size: 13px;
+    font-family: medium Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .trav {
+    margin-top: 1vh;
+  }
+
+  .travTwo span {
+    margin-top: 4vh;
+    font-size: 10px;
+  }
+
+  .ltext {
+    width: 20vw;
+    height: 14vh;
+  }
+
+  .wavesBlock,.BollywaveImg,.leftArticle,.waveText{
+    overflow: hidden;
+  }
+
+  .BollysecContent{
+    width: 86vw;
+    height: 55vh;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+
+  .num {
+    width: 7vw;
+    height: 12vh;
+    text-align: center;
+    font-size: 44px;
+    font-family: Fira Sans;
+    letter-spacing: 1.48px;
+    color: #F0F0F0;
+    opacity: 1;
+  }
+
+  .num p {
+    margin-top: 1vh;
+  }
+
+
+  .Bollyimage {
+    width: 25vw;
+    height: 20vh;
+    background: transparent url('./components/img/BollyTwo.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 7px 7px 0px 0px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .cards {
+    height: 60vh;
+    padding-bottom: 5%;
+  }
+
+  .headAlign {
+    text-decoration: none;
+  }
+
+  .Technoimage {
+    width: 25vw;
+    height: 20vh;
+    background: transparent url('./components/img/imgTechFour.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 7px 7px 0px 0px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .TechnowaveImg {
+    margin-left: 3vw;
+    width: 20vw;
+    height: 20vh;
+    background-color: black;
+    background: transparent url('./components/img/imgTech.webp') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 2px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .TechnotopImage {
+    margin-top: 3%;
+    width: 29.4vw;
+    height: 20vh;
+    background: transparent url('./components/img/technoFour.webp') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 3px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .TechnostopTextOne{
+    height: 15vh;
+    display: flex;
+    overflow: hidden;
+  }
+  .TechnotopTextImg{
+    height: 12vh;
+    width: 10vw;
+  }
+
+  .TechnotopTextOne{
+    display: flex;
+    width:40vw}
+
+  .FitsecContent{
+    display: flex;
+    height: 52vh;
+    justify-content: space-between;
+  }
+
+  .FitgalleryImg{
+    height: 58vh;
+  }
+
+  .FinfoCard{
+    height: 50vh;
+    overflow: hidden;
+    width: 27vw;
+  }
+
+  .Technoimage{
+    width: 30vw;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .hollyimage {
+    width: 25vw;
+    height: 20vh;
+    background: transparent url('./components/img/HollySix.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 7px 7px 0px 0px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .hollywaveImg {
+    margin-left: 3vw;
+    width: 20vw;
+    height: 20vh;
+    background-color: black;
+    background: transparent url('./components/img/imgHollyOne.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 2px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .hollyalgn{margin-top: -25vh;}
+  .hollytopImage {
+    margin-top: 3%;
+    width: 29.4vw;
+    height: 20vh;
+    background: transparent url('./components/img/HollyFive.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 3px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .hollygalleryImg{
+    margin-top: 0vh;
+    height: 60vh;
+  }
+
+  .hollytopTextImg {
+    width: 14vw;
+    height: 12vh;
+    margin: auto;
+    background: transparent url('./components/img/BollySix.jpg') 0% 0% no-repeat padding-box;
+    background-size: cover;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 2px;
+    opacity: 1;
+  }
+
+  .Fitimage {
+    width: 25vw;
+    height: 20vh;
+    background: transparent url('./components/img/fitSix.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 7px 7px 0px 0px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .FitwaveImg {
+    margin-left: 3vw;
+    width: 22vw;
+    height: 20vh;
+    background-color: black;
+    background: transparent url('./components/img/fitFour.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 2px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .FittopImage {
+    margin-top: 3%;
+    width: 29.4vw;
+    height: 20vh;
+    background: transparent url('./components/img/fitSix.jpg')0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 3px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .FittopTextImg {
+    width: 14vw;
+    height: 12vh;
+    margin: auto;
+    background: transparent url('./components/img/fitfive.jpg') 0% 0% no-repeat padding-box;
+    background-size: cover;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 2px;
+    opacity: 1;
+  }
+
+  .FoodgalleryImg{
+    height: 58vh;
+  }
+  .Foodimage {
+    width: 25vw;
+    height: 20vh;
+    background: transparent url('./components/img/foodTwo.jpeg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 7px 7px 0px 0px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .FoodwaveImg {
+    margin-left: 3vw;
+    width: 24vw;
+    height: 20vh;
+    background-color: black;
+    background: transparent url('./components/img/foodTwo.jpeg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 2px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .FoodtopImage {
+    margin-top: 3%;
+    width: 29.4vw;
+    height: 20vh;
+    background: transparent url('./components/img/foodSix.webp') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 3px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .FoodtopTextImg {
+    width: 14vw;
+    height: 12vh;
+    margin: auto;
+    background: transparent url('./components/img/foodSix.webp') 0% 0% no-repeat padding-box;
+    background-size: cover;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 2px;
+    opacity: 1;
+  }
+
+  .Imageheader {
+    display: flex;
+    padding: 2% 5%;
+    position: relative;
+    height: 5vh;
+    width: 100%;
+  }
+
+  .ImageHead {
+    width: 5vw;
+    height: 5vh;
+    transform: matrix(0, -1, 1, 0, 0, 0);
+    font-size: 19px;
+    font-family: medium Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-top: 5px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    position: absolute;
+    left: 5.5%;
+  }
+
+  .imageSpiran {
+    font-size: 44px;
+    font-family: medium Montserrat;
+    font-weight: bold;
+    color: #000000;
+    position: absolute;
+    left: 10%;
+  }
+
+  .btnGet {
+    position: absolute;
+    right: 20%;
+    top: 45%;
+    background-color: transparent;
+    border: 1px solid green;
+    color: green;
+    padding: 0.5% 1%;
+  }
+
+  .btnGet:hover {
+    background-color: green;
+    color: white;
+  }
+
+  .imageContent {
+    width: 100vw;
+    height: auto;
+    display: flex;
+  }
+
+  .options {
+    width: 30%;
+    height: 100vh;
+    text-align: center;
+  }
+
+  .imageDataInfo {
+    padding-top: 2%;
+    width: 45%;
+    height: auto;
+  }
+
+  body {
+    position: relative;
+  }
+
+  .blankDiv {
+    width: 30%;
+    height: 100vh;
+  }
+
+  .stickyText {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    position: absolute;
+    margin-left: 08vw;
+    margin-top: 65vh;
+  }
+
+  .clap {
+    width: 22vw;
+    height: 6vh;
+    display: flex;
+  }
+
+  .clapImg {
+    width: 20%;
+    height: 5vh;
+    background: url('./components/img/rythm.png');
+    opacity: 1;
+    background-repeat: no-repeat;
+  }
+
+  .followers {
+    margin-left: 1vw;
+    font-size: 16px;
+    font-family: Open Sans;
+    letter-spacing: 0px;
+    color: #939393;
+    opacity: 1;
+  }
+
+  .share {
+    width: 26vw;
+    height: 5vh;
+    display: flex;
+  }
+
+  .shareImg {
+    width: 12%;
+    height: 4vh;
+    background-image: url('./components/img/share.png');
+    opacity: 1;
+    background-repeat: repeat;
+  }
+
+  .shareMsg {
+    margin-left: 2vw;
+    font-size: 16px;
+    font-family: Open Sans;
+    letter-spacing: 0px;
+    color: #939393;
+    opacity: 1;
+  }
+
+  .imgInfoHeading {
+    font-size: 28px;
+    font-family: Georgia;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .userProf {
+    width: 100%;
+    height: 14vh;
+    display: flex;
+    padding-top: 2%;
+  }
+
+  .img {
+    width: 80px;
+    height: 80px;
+    background-image: url('./components/img/Mask\ Group\ 16.png');
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .userDesc {
+    width: 15vw;
+    text-align: center;
+    height: 13.5;
+    padding-top: 3%;
+    padding-left: 2%;
+  }
+
+  .userName {
+    text-align: left;
+    font-size: 14px;
+    font-family: Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .userInfo {
+    text-align: left;
+    font-family: 14px;
+    font-family: Open Sans;
+    letter-spacing: 0px;
+    color: #A2A2A2;
+    opacity: 1;
+  }
+
+  .socialIcon {
+    width: 18vw;
+    height: 13vh;
+  }
+
+  .socialIcon ul {
+    display: flex;
+    justify-content: right;
+    margin-top: 25%;
+    padding: 0px 10px;
+  }
+
+  .facebook {
+    width: 25px;
+    height: 25px;
+    background-image: url('./components/img/facebook.png');
+    background-size: cover;
+    opacity: 1;
+  }
+
+  .twitter {
+    width: 25px;
+    height: 25px;
+    background-image: url('./components/img/twitter.png');
+    background-size: cover;
+    opacity: 1;
+  }
+
+  .instagram {
+    width: 25px;
+    height: 25px;
+    background-image: url('./components/img/instagram.png');
+    background-size: cover;
+    opacity: 1;
+  }
+
+  .youtube {
+    width: 30px;
+    height: 30px;
+    background-image: url('./components/img/youTube.png');
+    background-size: cover;
+    opacity: 1;
+  }
+
+  .reactImage {
+    margin-top: 2%;
+    width: 40vw;
+    height: 45vh;
+    opacity: 1;
+    overflow: hidden;
+  }
+
+  .reactImage img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .contImg {
+    margin-top: 5%;
+    padding-top: 2%;
+    width: 40vw;
+    height: 120vh;
+  }
+
+  .contImg p {
+    text-align: left;
+    font-size: 21px;
+    font-family: normal normal normal Georgia;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .codeImg {
+    width: 40vw;
+    height: 50vh;
+    opacity: 1;
+    overflow: hidden;
+  }
+
+  .codeImg img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .Rjava {
+    width: 30vw;
+    height: 5vh;
+    padding: 2vh 0vh;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .lang {
+    margin: 1%;
+    width: 15vw;
+    padding: 2px 0px;
+    height: 3vh;
+    background-color: #F2F2F2;
+    text-align: center;
+  }
+
+  .lang p {
+    font-size: 15px;
+    font-family: normal normal normal Open Sans;
+    letter-spacing: 0px;
+    color: #A2A2A2;
+    opacity: 1;
+  }
+
+  .clapalgn {
+    width: 25vw;
+    height: 5vh;
+    display: flex;
+    padding: 2%;
+    padding: 2vh 2vw;
+  }
+
+  .clapalgnImg {
+    width: 20%;
+    height: 6vh;
+    background: url('./components/img/rythm.png');
+    opacity: 1;
+    background-repeat: no-repeat;
+  }
+
+  .clapalgnfollowers {
+    margin-left: 1vw;
+    font-size: 16px;
+    font-family: Open Sans;
+    letter-spacing: 0px;
+    color: #939393;
+    opacity: 1;
+    margin-top: 4%;
+  }
+
+  .clasps {
+    margin-left: 1vw;
+    font-size: 16px;
+    font-family: Open Sans;
+    letter-spacing: 0px;
+    color: #939393;
+    opacity: 1;
+    margin-top: 4%;
+  }
+
+  .userProfTwo {
+    width: 40vw;
+    height: 17vh;
+    padding: 1%;
+    display: flex;
+  }
+
+  .userInfoTwo {
+    width: 15vw;
+    padding-left: 2%;
+  }
+
+  .userImageTwo {
+    width: 70px;
+    height: 70px;
+    background: transparent url('./components/img/Mask\ Group\ 16.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .autInfo {
+    font-size: 12px;
+    font-family: normal normal normal Open Sans;
+    letter-spacing: 0px;
+    color: #A2A2A2;
+    opacity: 1;
+    padding-top: 3%;
+  }
+
+  .authName {
+    font-size: 14px;
+    font-family: normal normal normal Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    padding-top: 5%;
+  }
+
+  .authDate {
+    font-size: 10px;
+    font-family: normal normal normal Open Sans;
+    letter-spacing: 0px;
+    color: #A2A2A2;
+    opacity: 1;
+    padding-top: 7%;
+  }
+
+  .sepe {
+    width: 40vw;
+    height: 2px;
+    background: #F0F0F0 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 2% 0%;
+  }
+
+  .footColor {
+    width: 100vw;
+    background-color: #FAFAFA;
+  }
+
+  .footer {
+    width: 80vw;
+    height: 100vh;
+    margin: auto;
+    background-color: #FAFAFA;
+  }
+
+  .moreSiren {
+    margin-top: 2vh;
+    margin-left: 2vw;
+    width: 25vw;
+    height: 5vh;
+  }
+
+  .moreSiren p {
+    font-size: 22px;
+    font-family: normal normal normal Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .userCards {
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .userCared {
+    width: 25vw;
+    height: 70vh;
+  }
+
+  .taggedText {
+    padding: 4%;
+    font-size: 16px;
+    font-family: normal normal normal Open Sans;
+    letter-spacing: 0px;
+    color: #404040;
+    opacity: 1;
+  }
+
+  .authImage {
+    width: 25vw;
+    height: 15vw;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 7px 7px 0px 0px;
+    opacity: 1;
+    overflow: hidden;
+  }
+
+  .authImage img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .Joshua {
+    font-size: 20px;
+    font-family: normal normal medium Montserrat;
+    letter-spacing: 0px;
+    color: #404040;
+    opacity: 1;
+    padding: 2%;
+  }
+
+  .authInfoCard {
+    width: 24vw;
+    height: 15vh;
+    display: flex;
+    padding: 2%;
+    margin-top: 2vh;
+  }
+
+  .Authpic {
+    width: 92px;
+    height: 72px;
+    background: transparent url('./components/img/Mask\ Group\ 16.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .picInfo {
+    width: 20vw;
+    height: 10vh;
+    padding: 5% 0% 0% 2%;
+  }
+
+  .AuthPicName {
+    font-size: 16px;
+    font-family: normal normal normal Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .AuthPicDate {
+    font-size: 16px;
+    font-family: normal normal normal Open Sans;
+    letter-spacing: 0px;
+    color: #A2A2A2;
+    opacity: 1;
+  }
+
+  .footSepe {
+    width: 100vw;
+    height: 4px;
+    background: #F0F0F0 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 2% 0%;
+  }
+}
+
+@media screen and (min-width:550px) and (max-width:750px) {
+  .bollyImgText {
+    height: 65vh;
+    width: 100vw;
+    background: transparent url('./components/img/BollyOne.webp') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px;
+    background-size: cover;
+    border-radius: 7px;
+    position: relative;
+  }
+
+  .headAlign{
+    /* width: 50vw; */
+    border: 1px solid peru;
+  }
+
+  .bollyleftImgText {
+    position: absolute;
+    bottom: 10vh;
+    left: 5vw;
+  }
+
+  .secContent {
+    height: 250vh;
+  }
+
+  .BollysecContent{
+    display: block;
+    width: 100vw;
+    height: 250vh;
+    overflow: hidden;
+  }
+
+  .BinfoCard{
+    width: 80vw;
+    height: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+  }
+
+  .BollyItext{
+    margin-left: 20vw;
+  }
+
+  .infoCard {
+    height: 82vh;
+  }
+
+  .Bollyimage {
+    width: 100vw;
+    height: 42vh;
+    background: transparent url('./components/img/BollyTwo.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 7px 7px 0px 0px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .infoCard,.wavesBlock,.BollywaveImg,.leftArticle,.waveText{
+    overflow: hidden;
+  }
+
+  .BollywaveImg {
+    margin-left: 3vw;
+    width: 30vw;
+    height: 30vh;
+    background-color: black;
+    background: transparent url('./components/img/BollyFive.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 2px;
+    opacity: 1;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .BollytopImage {
+    margin-top: 3%;
+    width: 100vw;
+    height: 40vh;
+    background: transparent url('./components/img/BollySix.jpg')0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 3px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .BollygalleryImg {
+    width: 55vw;
+    height: 73vh;
+    margin-top: 3vh;
+    background: transparent url('./components/img/BollySix.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 5px;
+    opacity: 1;
+    background-size: cover;
+    position: relative;
+  }
+
+  .waveText{overflow: hidden;}
+
+  .BollytopTextImg {
+    width: 25vw;
+    height: 16vh;
+    margin: auto;
+    background: transparent url('./components/img/hrx.jpeg') 0% 0% no-repeat padding-box;
+    background-size: cover;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 2px;
+    opacity: 1;
+  }
+
+  .bltextOne{
+    margin-left: 5%;
+  }
+
+  .BtopTitle {
+    width: 40vw;
+    font-size: 20px;
+    font-family: medium Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .trav {
+    text-align: left;
+    margin-top: 2vh;
+  }
+
+  .ltext {
+    width: 60vw;
+    height: 15vh;
+    margin-left: 5vw;
+  }
+
+.alot{
+  margin-top: -20vh !important;
+}
+
+  .ltextOne{    
+    margin-top: -3vh;
+  }
+
+  .num {
+    width: 7vw;
+    height: 14vh;
+    text-align: center;
+    font-size: 74px;
+    font-family: Fira Sans;
+    letter-spacing: 1.48px;
+    color: #F0F0F0;
+    opacity: 1;
+  }
+
+  .topPost hr {
+    width: 100vw;
+  }
+
+  .num p {
+    margin-top: 1vh;
+  }
+
+  .TechnoImgText {
+    height: 65vh;
+    width: 100vw;
+    background: transparent url('./components/img/TechnoThree.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px;
+    background-size: cover;
+    border-radius: 7px;
+    position: relative;
+  }
+
+  .headAlign {
+    text-decoration: none;
+  }
+
+  .TechnoleftImgText {
+    position: absolute;
+    bottom: 10vh;
+    left: 5vw;
+  }
+
+  .Technoimage {
+    width: 100vw;
+    height: 34vh;
+    background: transparent url('./components/img/imgTechFour.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 7px 7px 0px 0px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .TechnowaveImg {
+    margin-left: 3vw;
+    width: 40vw;
+    height: 30vh;
+    background-color: black;
+    background: transparent url('./components/img/imgTech.webp') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 2px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .TechnotopImage {
+    margin-top: 3%;
+    width: 100vw;
+    height: 40vh;
+    background: transparent url('./components/img/technoFour.webp') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 3px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .algnlatest {
+    margin-top: -15vh;
+  }
+
+  .TechnotopTextImg {
+    width: 25vw;
+    height: 16vh;
+    margin: auto;
+    background: transparent url('./components/img/technoFive.jpg') 0% 0% no-repeat padding-box;
+    background-size: cover;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 2px;
+    opacity: 1;
+  }
+
+  .hollyImgText {
+    height: 65vh;
+    width: 100vw;
+    background: transparent url('./components/img/HollyFive.jpg')  0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px;
+    background-size: cover;
+    border-radius: 7px;
+    position: relative;
+  }
+
+
+  .hollyimage {
+    width: 100vw;
+    height: 32vh;
+    background: transparent url('./components/img/HollySix.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 7px 7px 0px 0px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .hollywaveImg {
+    margin-left: 3vw;
+    width: 40vw;
+    height: 30vh;
+    background-color: black;
+    background: transparent url('./components/img/imgHollyOne.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 2px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .hollytopImage {
+    margin-top: 3%;
+    width: 100vw;
+    height: 40vh;
+    background: transparent url('./components/img/HollyFive.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 3px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .hollytopTextImg {
+    width: 25vw;
+    height: 16vh;
+    margin: auto;
+    background: transparent url('./components/img/BollySix.jpg') 0% 0% no-repeat padding-box;
+    background-size: cover;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 2px;
+    opacity: 1;
+  }
+
+  .FitImgText {
+    height: 65vh;
+    width: 100vw;
+    background: transparent url('./components/img/fitSix.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px;
+    background-size: cover;
+    border-radius: 7px;
+    position: relative;
+  }
+
+  .Fitimage {
+    width: 100vw;
+    height: 32vh;
+    background: transparent url('./components/img/fitThree.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 7px 7px 0px 0px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .FitwaveImg {
+    margin-left: 3vw;
+    width: 40vw;
+    height: 30vh;
+    background-color: black;
+    background: transparent url('./components/img/fitFour.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 2px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .FittopImage {
+    margin-top: 3%;
+    width: 100vw;
+    height: 40vh;
+    background: transparent url('./components/img/fitSix.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 3px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .FittopTextImg {
+    width: 25vw;
+    height: 16vh;
+    margin: auto;
+    background: transparent url('./components/img/fitfive.jpg') 0% 0% no-repeat padding-box;
+    background-size: cover;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 2px;
+    opacity: 1;
+  }
+
+  .FoodImgText {
+    height: 65vh;
+    width: 100vw;
+    background: transparent url('./components/img/foodOne.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px;
+    background-size: cover;
+    border-radius: 7px;
+    position: relative;
+  }
+
+  .TechnoleftImgText {
+    position: absolute;
+    bottom: 10vh;
+    left: 5vw;
+  }
+
+  .FinfoCard,.imageText{
+    overflow: hidden;
+    width: 28vw;
+  }
+
+  .imageTitle{
+    font-size: 20px;
+  }
+
+  .imgDesc{
+    font-size: 12px;
+  }
+
+  .FitsecContent{
+    justify-content: space-between;
+  }
+
+  .Foodimage {
+    width: 100vw;
+    height: 32vh;
+    background: transparent url('./components/img/foodTwo.jpeg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 7px 7px 0px 0px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .FoodwaveImg {
+    margin-left: 3vw;
+    width: 40vw;
+    height: 30vh;
+    background-color: black;
+    background: transparent url('./components/img/foodTwo.jpeg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 2px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .FoodtopImage {
+    margin-top: 3%;
+    width: 100vw;
+    height: 40vh;
+    background: transparent url('./components/img/foodSix.webp') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 3px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .FoodtopTextImg {
+    width: 25vw;
+    height: 16vh;
+    margin: auto;
+    background: transparent url('./components/img/foodSix.webp') 0% 0% no-repeat padding-box;
+    background-size: cover;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 2px;
+    opacity: 1;
+  }
+
+  .Imageheader {
+    display: flex;
+    padding: 2% 5%;
+    position: relative;
+    height: 5vh;
+    width: 100%;
+  }
+
+  .ImageHead {
+    width: 5vw;
+    height: 5vh;
+    transform: matrix(0, -1, 1, 0, 0, 0);
+    font-size: 19px;
+    font-family: medium Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-top: 5px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    position: absolute;
+    left: 5.5%;
+  }
+
+  .imageSpiran {
+    font-size: 44px;
+    font-family: medium Montserrat;
+    font-weight: bold;
+    color: #000000;
+    position: absolute;
+    left: 10%;
+  }
+
+  .btnGet {
+    position: absolute;
+    right: 20%;
+    top: 45%;
+    background-color: transparent;
+    border: 1px solid green;
+    color: green;
+    padding: 0.5% 1%;
+  }
+
+  .btnGet:hover {
+    background-color: green;
+    color: white;
+  }
+
+  .imageContent {
+    width: 100vw;
+    height: auto;
+    display: block;
+  }
+
+  .options {
+    width: 30%;
+    height: 100vh;
+    text-align: center;
+    display: none;
+  }
+
+  .imageDataInfo {
+    padding-top: 2%;
+    width: 100%;
+    height: auto;
+  }
+
+  body {
+    position: relative;
+  }
+
+  .blankDiv {
+    width: 30%;
+    height: 100vh;
+    display: none;
+  }
+
+  .imgInfoHeading {
+    font-size: 30px;
+    font-family: Georgia;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    width: 100%;
+    text-align: center;
+  }
+
+  .userProf {
+    width: 100%;
+    height: 24vh;
+    display: flex;
+    padding-top: 2%;
+    margin-top: 2vh;
+  }
+
+  .img {
+    margin-top: 8vh;
+    width: 70px;
+    height: 70px;
+    background-image: url('./components/img/Mask\ Group\ 16.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    margin-left: 8%;
+  }
+
+  .userDesc {
+    margin-top: 5vh;
+    width: 100vw;
+    text-align: center;
+    height: 13.5;
+    padding-top: 6%;
+    padding-left: 2%;
+  }
+
+  .userName {
+    margin-left: 12%;
+    font-size: 20px;
+    font-family: Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .userInfo {
+    margin-left: 12%;
+    font-family: 16px;
+    font-family: Open Sans;
+    letter-spacing: 0px;
+    color: #A2A2A2;
+    opacity: 1;
+  }
+
+  .socialIcon {
+    width: 90vw;
+    height: 8vh;
+    margin-top: -1.5vh;
+    margin-left: -120vw;
+  }
+
+  .socialIcon ul {
+    display: flex;
+    justify-content: left;
+    margin-top: 0%;
+  }
+
+  .facebook {
+    width: 50px;
+    height: 50px;
+    background-image: url('./components/img/facebook.png');
+    background-size: cover;
+    opacity: 1;
+  }
+
+  .twitter {
+    width: 50px;
+    height: 50px;
+    background-image: url('./components/img/twitter.png');
+    background-size: cover;
+    opacity: 1;
+  }
+
+  .instagram {
+    width: 50px;
+    height: 50px;
+    background-image: url('./components/img/instagram.png');
+    background-size: cover;
+    opacity: 1;
+  }
+
+  .youtube {
+    width: 50px;
+    height: 50px;
+    background-image: url('./components/img/youTube.png');
+    background-size: cover;
+    opacity: 1;
+  }
+
+  .reactImage {
+    margin-top: 2%;
+    width: 100vw;
+    height: 45vh;
+    opacity: 1;
+    overflow: hidden;
+  }
+
+  .reactImage img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .contImg {
+    margin-top: 5%;
+    padding-top: 2%;
+    width: 100vw;
+    height: 80vh;
+  }
+
+  .contImg p {
+    text-align: left;
+    font-size: 21px;
+    font-family: normal normal normal Georgia;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .codeImg {
+    width: 100vw;
+    height: 50vh;
+    opacity: 1;
+    overflow: hidden;
+  }
+
+  .codeImg img{
+    width: 100%;
+    height:100%
+  }
+
+  .Rjava {
+    width: 100vw;
+    height: 5vh;
+    padding: 2vh 0vh;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+  }
+
+  .lang {
+    margin: 1%;
+    width: 20vw;
+    padding: 2px 0px;
+    height: 5vh;
+    background-color: #F2F2F2;
+    text-align: center;
+  }
+
+  .lang p {
+    font-size: 20px;
+    font-family: normal normal normal Open Sans;
+    letter-spacing: 0px;
+    color: #A2A2A2;
+    opacity: 1;
+    margin-top: 5%;
+  }
+
+  .clapalgn {
+    width: 35vw;
+    height: 5vh;
+    display: flex;
+    padding: 2%;
+    padding: 2vh 2vw;
+    margin-left: 5vw;
+  }
+
+  .clapalgnImg {
+    width: 25%;
+    height: 5vh;
+    background: url('./components/img/rythm.png');
+    opacity: 1;
+    background-repeat: no-repeat;
+  }
+
+  .clapalgnfollowers {
+    margin-left: 1vw;
+    font-size: 16px;
+    font-family: Open Sans;
+    letter-spacing: 0px;
+    color: #939393;
+    opacity: 1;
+    margin-top: 4%;
+  }
+
+  .clasps {
+    margin-left: 1vw;
+    font-size: 16px;
+    font-family: Open Sans;
+    letter-spacing: 0px;
+    color: #939393;
+    opacity: 1;
+    margin-top: 4%;
+  }
+
+  .userProfTwo {
+    width: 100vw;
+    height: 17vh;
+    padding: 1%;
+    display: flex;
+  }
+
+  .userInfoTwo {
+    width: 30vw;
+    padding-left: 2%;
+    margin-left: 3vw;
+  }
+
+  .userImageTwo {
+    width: 24vw;
+    height: 15vh;
+    background: transparent url('./components/img/Mask\ Group\ 16.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-left: 20vw;
+  }
+
+  .autInfo {
+    font-size: 14px;
+    font-family: normal normal normal Open Sans;
+    letter-spacing: 0px;
+    color: #A2A2A2;
+    opacity: 1;
+    padding-top: 3%;
+  }
+
+  .authName {
+    font-size: 18px;
+    font-family: normal normal normal Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    padding-top: 5%;
+  }
+
+  .authDate {
+    font-size: 14px;
+    font-family: normal normal normal Open Sans;
+    letter-spacing: 0px;
+    color: #A2A2A2;
+    opacity: 1;
+    padding-top: 7%;
+  }
+
+  .sepe {
+    width: 100vw;
+    height: 2px;
+    background: #F0F0F0 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 2% 0%;
+  }
+
+  .footColor {
+    width: 100vw;
+    background-color: #FAFAFA;
+  }
+
+  .footer {
+    width: 90vw;
+    height: 100vh;
+    margin: auto;
+    background-color: #FAFAFA;
+  }
+
+  .moreSiren {
+    margin-top: 2vh;
+    margin-left: 2vw;
+    width: 100vw;
+    height: 5vh;
+  }
+
+  .moreSiren p {
+    font-size: 32px;
+    font-family: normal normal normal Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .userCards {
+    width: 90vw;
+    height: 80vh;
+    display: block;
+  }
+
+  .userCared {
+    width: 90vw;
+    height: 25vh;
+    display: flex;
+  }
+
+  .taggedText {
+    display: none;
+    padding: 4%;
+    font-size: 12px;
+    font-family: normal normal normal Open Sans;
+    letter-spacing: 0px;
+    color: #404040;
+    opacity: 1;
+  }
+
+  .authImage {
+    margin-left: 60vw;
+    width: 25vw;
+    height: 25vw;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 7px 7px 0px 0px;
+    opacity: 1;
+    overflow: hidden;
+  }
+
+  .authImage img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .Joshua {
+    width: 58vw;
+    height: 10vh;
+    font-size: 24px;
+    font-family: normal normal medium Montserrat;
+    letter-spacing: 0px;
+    color: #404040;
+    opacity: 1;
+    padding: 4%;
+    margin-left: -85vw;
+    overflow: hidden;
+  }
+
+  .authInfoCard {
+    width: 24vw;
+    height: 15vh;
+    display: flex;
+    padding: 2%;
+    display: none;
+  }
+
+  .Authpic {
+    width: 78px;
+    height: 72px;
+    background: transparent url('./components/img/Mask\ Group\ 16.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .picInfo {
+    width: 20vw;
+    height: 10vh;
+    padding: 5% 0% 0% 2%;
+  }
+
+  .AuthPicName {
+    font-size: 16px;
+    font-family: normal normal normal Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .AuthPicDate {
+    font-size: 16px;
+    font-family: normal normal normal Open Sans;
+    letter-spacing: 0px;
+    color: #A2A2A2;
+    opacity: 1;
+  }
+
+  .footSepe {
+    width: 100vw;
+    height: 4px;
+    background: #F0F0F0 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 2% 0%;
+  }
+}
+
+@media screen and (min-width:300px) and (max-width:550px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  .headAlign{
+    width: 50vw;
+    border: 1px solid forestgreen;
+  }
+
+  .theHead{width:10vw;margin-left: 3vw;}
+
+  .theSpiran{width: 40vw;}
+
+  .bollyImgText {
+    height: 65vh;
+    width: 100vw;
+    background: transparent url('./components/img/BollyOne.webp') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px;
+    background-size: cover;
+    border-radius: 7px;
+    position: relative;
+  }
+
+  .bollyleftImgText {
+    position: absolute;
+    bottom: 10vh;
+    left: 5vw;
+  }
+
+  .secContent {
+    height: 250vh;
+  }
+
+  .infoCard {
+    width: 100vw;
+    height: 87vh;
+    overflow: hidden;
+  }
+
+  .imageText{
+    height: 50vh;
+    overflow: hidden;
+  }
+
+  .Bollyimage {
+    width: 100%;
+    height: 42vh;
+    background: transparent url('./components/img/BollyTwo.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 7px 7px 0px 0px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .BollywaveImg {
+    margin-left: 3vw;
+    width: 30vw;
+    height: 20vh;
+    background-color: black;
+    background: transparent url('./components/img/BollyFive.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 2px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .BollytopImage {
+    margin-top: 3%;
+    width: 100vw;
+    height: 40vh;
+    background: transparent url('./components/img/BollyFour.webp') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 3px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .BollygalleryImg {
+    display: none;
+    width: 55vw;
+    height: 73vh;
+    margin-top: 3vh;
+    background: transparent url('./components/img/BollySix.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 5px;
+    opacity: 1;
+    background-size: cover;
+    position: relative;
+  }
+
+  .BollytopTextImg {
+    width: 25vw;
+    height: 16vh;
+    margin: auto;
+    background: transparent url('./components/img/hrx.jpeg') 0% 0% no-repeat padding-box;
+    background-size: cover;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 2px;
+    opacity: 1;
+  }
+
+  .topTitle {
+    width: 60vw;
+    font-size: 30px;
+    font-family: medium Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .wavesBlock ,BollywaveImg{
+    overflow: hidden;
+  }
+
+  .trav {
+    text-align: left;
+    margin-top: 2vh;
+  }
+
+  .ltext {
+    width: 60vw;
+    height: 15vh;
+    margin-left: 5vw;
+  }
+
+  .topTitle {
+    font-size: 17px;
+  }
+
+  .num {
+    width: 12vw;
+    height: 14vh;
+    text-align: center;
+    font-size: 74px;
+    font-family: Fira Sans;
+    letter-spacing: 1.48px;
+    color: #F0F0F0;
+    opacity: 1;
+  }
+
+  .topPost hr {
+    width: 100vw;
+  }
+
+  .num p {
+    margin-top: 1vh;
+  }
+
+  .TechnoImgText {
+    height: 65vh;
+    width: 100vw;
+    background: transparent url('./components/img/TechnoThree.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px;
+    background-size: cover;
+    border-radius: 7px;
+    position: relative;
+  }
+
+  .headAlign {
+    text-decoration: none;
+  }
+
+  .TechnoleftImgText {
+    position: absolute;
+    bottom: 10vh;
+    left: 5vw;
+  }
+
+  .Technoimage {
+    width: 100vw;
+    height: 34vh;
+    background: transparent url('./components/img/imgTechFour.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 7px 7px 0px 0px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .TechnowaveImg {
+    margin-left: 3vw;
+    width: 40vw;
+    height: 23vh;
+    background-color: black;
+    background: transparent url('./components/img/imgTech.webp') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 2px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .TechnogalleryImg {
+    display: none;
+  }
+
+  .TechnotopImage {
+    margin-top: 3%;
+    width: 100vw;
+    height: 40vh;
+    background: transparent url('./components/img/technoFour.webp') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 3px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .algnlatest {
+    margin-top: -15vh;
+  }
+
+  .TechnotopTextImg {
+    width: 25vw;
+    height: 16vh;
+    margin: auto;
+    background: transparent url('./components/img/technoFive.jpg') 0% 0% no-repeat padding-box;
+    background-size: cover;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 2px;
+    opacity: 1;
+  }
+
+  .hollyImgText {
+    height: 65vh;
+    width: 100vw;
+    background: transparent url('./components/img/HollyFive.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px;
+    background-size: cover;
+    border-radius: 7px;
+    position: relative;
+  }
+
+
+  .hollyimage {
+    width: 100vw;
+    height: 32vh;
+    background: transparent url('./components/img/HollySix.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 7px 7px 0px 0px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .hollywaveImg {
+    margin-left: 3vw;
+    width: 40vw;
+    height: 22vh;
+    background-color: black;
+    background: transparent url('./components/img/imgHollyOne.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 2px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .hollygalleryImg {
+    display: none;
+  }
+
+  .hollytopImage {
+    margin-top: 3%;
+    width: 100vw;
+    height: 40vh;
+    background: transparent url('./components/img/HollyFive.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 3px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .hollytopTextImg {
+    width: 25vw;
+    height: 16vh;
+    margin: auto;
+    background: transparent url('./components/img/BollySix.jpg') 0% 0% no-repeat padding-box;
+    background-size: cover;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 2px;
+    opacity: 1;
+  }
+
+  .FitImgText {
+    height: 65vh;
+    width: 100vw;
+    background: transparent url('./components/img/fitSix.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px;
+    background-size: cover;
+    border-radius: 7px;
+    position: relative;
+  }
+
+  .Fitimage {
+    width: 100vw;
+    height: 32vh;
+    background: transparent url('./components/img/fitThree.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 7px 7px 0px 0px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .FitwaveImg {
+    margin-left: 3vw;
+    width: 40vw;
+    height: 23vh;
+    background-color: black;
+    background: transparent url('./components/img/fitFour.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 2px;
+    opacity: 1;
+    background-size: cover;
+    border: 1px solid red;
+  }
+
+  .fitlatest{
+    margin-top:-30vh;
+  }
+
+  .FittopImage {
+    margin-top: 3%;
+    width: 100vw;
+    height: 40vh;
+    background: transparent url('./components/img/fitSix.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 3px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .FittopTextImg {
+    width: 25vw;
+    height: 16vh;
+    margin: auto;
+    background: transparent url('./components/img/fitfive.jpg') 0% 0% no-repeat padding-box;
+    background-size: cover;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 2px;
+    opacity: 1;
+  }
+
+  .FoodImgText {
+    height: 65vh;
+    width: 100vw;
+    background: transparent url('./components/img/foodOne.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px;
+    background-size: cover;
+    border-radius: 7px;
+    position: relative;
+  }
+
+  .TechnoleftImgText {
+    position: absolute;
+    bottom: 10vh;
+    left: 5vw;
+  }
+
+  .Foodimage {
+    width: 100vw;
+    height: 32vh;
+    background: transparent url('./components/img/foodTwo.jpeg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 7px 7px 0px 0px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .FoodwaveImg {
+    margin-left: 3vw;
+    width: 40vw;
+    height: 22vh;
+    background-color: black;
+    background: transparent url('./components/img/foodTwo.jpeg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 2px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .secContent{
+   height: 230vh;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+  }
+
+  .FitsecContent{
+    height: 210vh;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+  }
+
+  .FinfoCard{
+    width: 80%;
+    height: 70vh;
+    border-top-right-radius: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+  }
+
+  .Fitimage{}
+
+  .infoCard{height: 65vh;}
+  .BinfoCard{height: 75vh; overflow: hidden;}
+  .cardInfo,.cardDiv{overflow: hidden;}
+  .alag{margin-top: 0vh;}
+  .hrxaln{margin-left: 8%;}
+
+  .FoodgalleryImg {
+    display: none;
+  }
+
+  .technoLattechnoLat{
+    margin-top: -30vh;
+  }
+
+  .alaga{margin-top: -85vh;}
+
+  .FitgalleryImg {
+    display: none;
+  }
+
+  .cardInfo{
+    height: 110vh;}
+
+  .cards{
+    height: 30vh;
+    padding: 3%;
+    overflow: hidden;
+  }
+
+  .FoodtopImage {
+    margin-top: 3%;
+    width: 100vw;
+    height: 40vh;
+    background: transparent url('./components/img/foodSix.webp') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 3px;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .FoodtopTextImg {
+    width: 25vw;
+    height: 16vh;
+    margin: auto;
+    background: transparent url('./components/img/foodSix.webp') 0% 0% no-repeat padding-box;
+    background-size: cover;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 2px;
+    opacity: 1;
+  }
+
+  .Imageheader {
+    display: flex;
+    padding: 2% 5%;
+    position: relative;
+    height: 5vh;
+    width: 100%;
+  }
+
+  .ImageHead {
+    width: 5vw;
+    height: 5vh;
+    transform: matrix(0, -1, 1, 0, 0, 0);
+    font-size: 19px;
+    font-family: medium Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-top: 5px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    position: absolute;
+    left: 5.5%;
+  }
+
+  .imageSpiran {
+    font-size: 44px;
+    font-family: medium Montserrat;
+    font-weight: bold;
+    color: #000000;
+    position: absolute;
+    left: 10%;
+  }
+
+  .btnGet {
+    position: absolute;
+    right: 20%;
+    top: 45%;
+    background-color: transparent;
+    border: 1px solid green;
+    color: green;
+    padding: 0.5% 1%;
+  }
+
+  .btnGet:hover {
+    background-color: green;
+    color: white;
+  }
+
+  .imageContent {
+    width: 100vw;
+    height: auto;
+    display: block;
+  }
+
+  .options {
+    width: 30%;
+    height: 100vh;
+    text-align: center;
+    display: none;
+  }
+
+  .imageDataInfo {
+    padding-top: 2%;
+    width: 100%;
+    height: auto;
+  }
+
+  body {
+    position: relative;
+  }
+
+  .blankDiv {
+    width: 30%;
+    height: 100vh;
+    display: none;
+  }
+
+  .imgInfoHeading {
+    font-size: 30px;
+    font-family: Georgia;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    width: 100%;
+    text-align: center;
+  }
+
+  .userProf {
+    width: 100%;
+    height: 24vh;
+    display: flex;
+    padding-top: 2%;
+    margin-top: 2vh;
+  }
+
+  .img {
+    margin-top: 8vh;
+    width: 70px;
+    height: 70px;
+    background-image: url('./components/img/Mask\ Group\ 16.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    margin-left: 8%;
+  }
+
+  .userDesc {
+    margin-top: 5vh;
+    width: 100vw;
+    text-align: center;
+    height: 13.5;
+    padding-top: 6%;
+    padding-left: 2%;
+  }
+
+  .userName {
+    margin-left: 12%;
+    font-size: 20px;
+    font-family: Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .userInfo {
+    margin-left: 12%;
+    font-family: 16px;
+    font-family: Open Sans;
+    letter-spacing: 0px;
+    color: #A2A2A2;
+    opacity: 1;
+  }
+
+  .socialIcon {
+    width: 90vw;
+    height: 8vh;
+    margin-top: -1.5vh;
+    margin-left: -120vw;
+  }
+
+  .socialIcon ul {
+    display: flex;
+    justify-content: left;
+    margin-top: 0%;
+  }
+
+  .facebook {
+    width: 50px;
+    height: 50px;
+    background-image: url('./components/img/facebook.png');
+    background-size: cover;
+    opacity: 1;
+  }
+
+  .twitter {
+    width: 50px;
+    height: 50px;
+    background-image: url('./components/img/twitter.png');
+    background-size: cover;
+    opacity: 1;
+  }
+
+  .instagram {
+    width: 50px;
+    height: 50px;
+    background-image: url('./components/img/instagram.png');
+    background-size: cover;
+    opacity: 1;
+  }
+
+  .youtube {
+    width: 50px;
+    height: 50px;
+    background-image: url('./components/img/youTube.png');
+    background-size: cover;
+    opacity: 1;
+  }
+
+  .reactImage {
+    margin-top: 2%;
+    width: 100vw;
+    height: 45vh;
+    opacity: 1;
+    overflow: hidden;
+  }
+
+  .reactImage img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .contImg {
+    margin-top: 5%;
+    padding-top: 2%;
+    width: 100vw;
+    height: 80vh;
+  }
+
+  .contImg p {
+    text-align: left;
+    font-size: 21px;
+    font-family: normal normal normal Georgia;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .codeImg {
+    width: 100vw;
+    height: 50vh;
+    opacity: 1;
+    overflow: hidden;
+  }
+
+  .codeImg img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .Rjava {
+    width: 100vw;
+    height: 5vh;
+    padding: 2vh 0vh;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+  }
+
+  .lang {
+    margin: 1%;
+    width: 20vw;
+    padding: 2px 0px;
+    height: 5vh;
+    background-color: #F2F2F2;
+    text-align: center;
+  }
+
+  .lang p {
+    font-size: 20px;
+    font-family: normal normal normal Open Sans;
+    letter-spacing: 0px;
+    color: #A2A2A2;
+    opacity: 1;
+    margin-top: 5%;
+  }
+
+  .clapalgn {
+    width: 35vw;
+    height: 5vh;
+    display: flex;
+    padding: 2%;
+    padding: 2vh 2vw;
+    margin-left: 5vw;
+  }
+
+  .clapalgnImg {
+    width: 25%;
+    height: 5vh;
+    background: url('./components/img/rythm.png');
+    opacity: 1;
+    background-repeat: no-repeat;
+  }
+
+  .clapalgnfollowers {
+    margin-left: 1vw;
+    font-size: 16px;
+    font-family: Open Sans;
+    letter-spacing: 0px;
+    color: #939393;
+    opacity: 1;
+    margin-top: 4%;
+  }
+
+  .clasps {
+    margin-left: 1vw;
+    font-size: 16px;
+    font-family: Open Sans;
+    letter-spacing: 0px;
+    color: #939393;
+    opacity: 1;
+    margin-top: 4%;
+  }
+
+  .userProfTwo {
+    width: 100vw;
+    height: 17vh;
+    padding: 1%;
+    display: flex;
+  }
+
+  .userInfoTwo {
+    width: 30vw;
+    padding-left: 2%;
+    margin-left: 3vw;
+  }
+
+  .userImageTwo {
+    width: 24vw;
+    height: 15vh;
+    background: transparent url('./components/img/Mask\ Group\ 16.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-left: 20vw;
+  }
+
+  .autInfo {
+    font-size: 14px;
+    font-family: normal normal normal Open Sans;
+    letter-spacing: 0px;
+    color: #A2A2A2;
+    opacity: 1;
+    padding-top: 3%;
+  }
+
+  .authName {
+    font-size: 18px;
+    font-family: normal normal normal Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    padding-top: 5%;
+  }
+
+  .authDate {
+    font-size: 14px;
+    font-family: normal normal normal Open Sans;
+    letter-spacing: 0px;
+    color: #A2A2A2;
+    opacity: 1;
+    padding-top: 7%;
+  }
+
+  .sepe {
+    width: 100vw;
+    height: 2px;
+    background: #F0F0F0 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 2% 0%;
+  }
+
+  .footColor {
+    width: 100vw;
+    background-color: #FAFAFA;
+  }
+
+  .footer {
+    width: 90vw;
+    height: 100vh;
+    margin: auto;
+    background-color: #FAFAFA;
+  }
+
+  .moreSiren {
+    margin-top: 2vh;
+    margin-left: 2vw;
+    width: 100vw;
+    height: 5vh;
+  }
+
+  .moreSiren p {
+    font-size: 32px;
+    font-family: normal normal normal Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .userCards {
+    width: 90vw;
+    height: 80vh;
+    display: block;
+  }
+
+  .userCared {
+    width: 90vw;
+    height: 25vh;
+    display: flex;
+  }
+
+  .taggedText {
+    display: none;
+    padding: 4%;
+    font-size: 12px;
+    font-family: normal normal normal Open Sans;
+    letter-spacing: 0px;
+    color: #404040;
+    opacity: 1;
+  }
+
+  .authImage {
+    margin-left: 60vw;
+    width: 25vw;
+    height: 25vw;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 7px 7px 0px 0px;
+    opacity: 1;
+    overflow: hidden;
+  }
+
+  .authImage img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .Joshua {
+    width: 58vw;
+    height: 10vh;
+    font-size: 24px;
+    font-family: normal normal medium Montserrat;
+    letter-spacing: 0px;
+    color: #404040;
+    opacity: 1;
+    padding: 4%;
+    margin-left: -85vw;
+    overflow: hidden;
+  }
+
+  .authInfoCard {
+    width: 24vw;
+    height: 15vh;
+    display: flex;
+    padding: 2%;
+    display: none;
+  }
+
+  .Authpic {
+    width: 78px;
+    height: 72px;
+    background: transparent url('./components/img/Mask\ Group\ 16.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-size: cover;
+  }
+
+  .picInfo {
+    width: 20vw;
+    height: 10vh;
+    padding: 5% 0% 0% 2%;
+  }
+
+  .AuthPicName {
+    font-size: 16px;
+    font-family: normal normal normal Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .AuthPicDate {
+    font-size: 16px;
+    font-family: normal normal normal Open Sans;
+    letter-spacing: 0px;
+    color: #A2A2A2;
+    opacity: 1;
+  }
+
+  .footSepe {
+    width: 100vw;
+    height: 4px;
+    background: #F0F0F0 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 2% 0%;
+  }
+}
